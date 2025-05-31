@@ -36,7 +36,8 @@ extern int ackMechCount;
 extern pthread_mutex_t clockMut;    
 extern pthread_mutex_t ackMut;       
 extern pthread_mutex_t mechMut;     
-
+extern pthread_cond_t condDock;   // signal “dock access available”
+extern pthread_cond_t condMech;   // signal “mech access available”
 
 void incrementClock();
 void updateClock(int receivedTimestamp);
@@ -48,7 +49,7 @@ void removeDockRequest(int from);
 int hasMechAccess();
 void addMechRequest(int from, int timestamp, int howManny);
 void removeMechRequest(int from);
-
+//
 
 extern int rank;
 extern int size;

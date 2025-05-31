@@ -35,11 +35,19 @@ void *startKomWatek(void *ptr)
         case ACK_DOCK: 
             pthread_mutex_lock(&ackMut);
                 ackDockCount++;
+                // wake up anyone waiting on “dock access”
+                pthread_cond_signal(&condDock);
             pthread_mutex_unlock(&ackMut);
 	        break;
 
         case REL_DOCK: 
-            removeDockRequest(pakiet.src);
+            removeDockRequest(pakiet.src);                
+            
+            // wake up anyone waiting on “dock access”
+            pthread_mutex_lock(&ackMut);
+            pthread_cond_signal(&condDock);
+            pthread_mutex_unlock(&ackMut);
+            
             break;
 
         case REQ_MECH: 
@@ -53,15 +61,21 @@ void *startKomWatek(void *ptr)
 
 	        break;
 
-        case ACK_MECH: 
-            
+        case ACK_MECH:
             pthread_mutex_lock(&mechMut);
                 ackMechCount++;
+                // wake up anyone waiting on “mech access”
+                pthread_cond_signal(&condMech);
             pthread_mutex_unlock(&mechMut);
-	        break;
+            break;
 
         case REL_MECH: 
             removeMechRequest(pakiet.src);
+
+            // wake up anyone waiting on “mech access”
+            pthread_mutex_lock(&mechMut);
+            pthread_cond_signal(&condMech);
+            pthread_mutex_unlock(&mechMut);
 	        break;
 
 	    default:

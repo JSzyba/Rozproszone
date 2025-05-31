@@ -54,6 +54,8 @@ int ackMechCount = 0;
 pthread_mutex_t clockMut = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t ackMut = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t mechMut = PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t condDock = PTHREAD_COND_INITIALIZER;
+pthread_cond_t condMech = PTHREAD_COND_INITIALIZER;
 
 // kolejki kolejności dostępów
 int requestQueue[MAX_PROCESSES];

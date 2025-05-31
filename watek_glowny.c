@@ -36,9 +36,12 @@ void mainLoop()
         pthread_mutex_unlock(&clockMut);
 
         // wait until ACK_DOCK
-        while (!hasDockAccess()) {
-            usleep(100); // tiny sleep
-        }
+        pthread_mutex_lock(&ackMut);
+            while (!hasDockAccess()) {
+                pthread_cond_wait(&condDock, &ackMut);
+            }
+        pthread_mutex_unlock(&ackMut);
+
 
         debug("Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = %d",lamportClock);
         
@@ -61,9 +64,12 @@ void mainLoop()
             pthread_mutex_unlock(&clockMut);
 
 
-            while (!hasMechAccess()) {
-                usleep(100); // tiny sleep
-            }
+            pthread_mutex_lock(&mechMut);
+                while (!hasMechAccess()) {
+                    pthread_cond_wait(&condMech, &mechMut);
+                }
+            pthread_mutex_unlock(&mechMut);
+
             
             debug("Dostałem %d Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = %d",neededMechanics,lamportClock);
             

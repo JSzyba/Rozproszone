@@ -1,0 +1,2 @@
+localhost slots=12
+192.168.1.90 slots=16
