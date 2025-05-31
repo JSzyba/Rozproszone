@@ -104,7 +104,7 @@ void removeDockRequest(int from) {
 
 int hasDockAccess() {
     int result = FALSE;
-    pthread_mutex_lock(&ackMut);
+    // pthread_mutex_lock(&ackMut);
 
     int myTime = requestQueue[rank];
     int count = 0;
@@ -123,7 +123,7 @@ int hasDockAccess() {
         result = TRUE;
     }
 
-    pthread_mutex_unlock(&ackMut);
+    // pthread_mutex_unlock(&ackMut);
     return result;
 }
 
@@ -143,7 +143,7 @@ void removeMechRequest(int from) {
 
 int hasMechAccess() {
     int result = FALSE;
-    pthread_mutex_lock(&mechMut);
+    // pthread_mutex_lock(&mechMut);
 
     int myTime = mechRequestQueue[rank].timestamp;
     int myNeed = mechRequestQueue[rank].requestedMech;
@@ -164,6 +164,6 @@ int hasMechAccess() {
         // debug("Uważam, że jest %d użytych Mechaników na %d, lamport = %d",(count + myNeed),NO_MECHANICS,lamportClock);
     }
 
-    pthread_mutex_unlock(&mechMut);
+    // pthread_mutex_unlock(&mechMut);
     return result;
 }

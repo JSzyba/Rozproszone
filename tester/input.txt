@@ -1,3 +1,14 @@
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
 Pełne wsparcie dla wątków
 THREAD SUPPORT: chcemy 3. Co otrzymamy?
 Pełne wsparcie dla wątków
@@ -11,1509 +22,2006 @@ THREAD SUPPORT: chcemy 3. Co otrzymamy?
 Pełne wsparcie dla wątków
 THREAD SUPPORT: chcemy 3. Co otrzymamy?
 Pełne wsparcie dla wątków
- [0]: Zostałem postrzelony, Chcę naprawę, lamport = 0
- [0]: Wysyłam Potrzebe doku do 0, lamport = 1
- [0]: Wysyłam Potrzebe doku do 1, lamport = 1
- [0]: Wysyłam Potrzebe doku do 2, lamport = 1
- [0]: Wysyłam Potrzebe doku do 3, lamport = 1
- [0]: Wysyłam Potrzebe doku do 4, lamport = 1
- [1]: Zostałem postrzelony, Chcę naprawę, lamport = 0
- [1]: Wysyłam Potrzebe doku do 0, lamport = 1
- [1]: Wysyłam Potrzebe doku do 1, lamport = 1
- [0]: Wysyłam Potrzebe doku do 5, lamport = 1
- [0]: Wysyłam Potrzebe doku do 6, lamport = 1
- [0]: Wysyłam Potrzebe doku do 7, lamport = 1
- [0]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 1
- [1]: Wysyłam Potrzebe doku do 2, lamport = 1
- [1]: Wysyłam Potrzebe doku do 3, lamport = 1
- [0]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [6]: Zostałem postrzelony, Chcę naprawę, lamport = 0
+ [6]: Wysyłam Potrzebe doku do 0, lamport = 1
+ [1]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [0]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [0]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 3
+ [1]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [2]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [2]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [2]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [0]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [1]: Wysyłam Potrzebe doku do 4, lamport = 1
- [1]: Wysyłam Potrzebe doku do 5, lamport = 1
- [1]: Wysyłam Potrzebe doku do 6, lamport = 1
- [1]: Wysyłam Potrzebe doku do 7, lamport = 1
- [1]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 1
- [2]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [2]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [0]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [4]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [2]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [0]: Otrzymałem Potrzebe doku od 1, lamport = 4
+ [4]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [3]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [0]: Wysyłam Potwierdzenie o Doku do 1, lamport = 4
- [0]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 5
+ [3]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [7]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [0]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 6
+ [7]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [8]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [0]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 7
+ [8]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [5]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [0]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 8
+ [5]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [6]: Wysyłam Potrzebe doku do 1, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 2, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 3, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 4, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 5, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 6, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 7, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 8, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 9, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 10, lamport = 1
+ [6]: Wysyłam Potrzebe doku do 11, lamport = 1
+ [6]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 1
+ [6]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [3]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [6]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [9]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [3]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [3]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [9]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [6]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 3
 
- [3]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [5]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [10]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [5]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [5]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [10]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [11]: Otrzymałem Potrzebe doku od 6, lamport = 2
 
- [5]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [1]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [11]: Wysyłam Potwierdzenie o Doku do 6, lamport = 2
+ [2]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [1]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [1]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [0]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [1]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [1]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 4
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [4]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [6]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [3]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [6]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [6]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [7]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [6]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [7]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [8]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [7]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [7]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [6]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 4
 
- [7]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [4]: Otrzymałem Potrzebe doku od 0, lamport = 2
+ [6]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 5
 
- [4]: Wysyłam Potwierdzenie o Doku do 0, lamport = 2
- [4]: Otrzymałem Potrzebe doku od 1, lamport = 3
+ [6]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 6
 
- [4]: Wysyłam Potwierdzenie o Doku do 1, lamport = 3
- [4]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 7
 
- [0]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 9
+ [6]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 8
 
- [0]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 10
+ [6]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 9
 
- [0]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 11
+ [6]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 10
 
- [0]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 11
- [0]: Wysyłam Potrzebe Mechaników do 0, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 1, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 2, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 3, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 4, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 5, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 6, lamport = 12
- [0]: Wysyłam Potrzebe Mechaników do 7, lamport = 12
- [0]: Żadanie o 9 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 12
- [7]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 11
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [5]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 12
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [2]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 13
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [4]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [3]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 14
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [6]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 14
+ [6]: Wysyłam Potrzebe Mechaników do 0, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 1, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 2, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 3, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 4, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 5, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 6, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 7, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 8, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 9, lamport = 15
+ [1]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [0]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [5]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 14
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [6]: Wysyłam Potrzebe Mechaników do 10, lamport = 15
+ [6]: Wysyłam Potrzebe Mechaników do 11, lamport = 15
+ [6]: Żadanie o 4 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 15
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 17
 
- [1]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 5
+ [6]: Otrzymałem Potrzebe Mechaników od 6, lamport = 18
 
- [1]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 6
+ [11]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [1]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 7
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [9]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [1]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 8
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [10]: Otrzymałem Potrzebe Mechaników od 6, lamport = 16
 
- [1]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 9
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 16
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 18
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 19
 
- [1]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 10
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 20
 
- [1]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 11
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 21
 
- [1]: Otrzymałem Potrzebe Mechaników od 0, lamport = 13
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 22
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 13
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 15
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 23
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 16
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 24
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 17
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 25
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 18
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 26
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 19
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 27
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 20
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 28
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 21
+ [6]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 29
 
- [0]: Otrzymałem Potrzebe Mechaników od 1, lamport = 22
+ [6]: Dostałem 4 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 29
+ [8]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 22
- [1]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 13
- [1]: Wysyłam Potrzebe Mechaników do 0, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 1, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 2, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 3, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 4, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 5, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 6, lamport = 14
- [1]: Wysyłam Potrzebe Mechaników do 7, lamport = 14
- [1]: Żadanie o 23 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 14
- [3]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [8]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [9]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [6]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [9]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [1]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [7]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [1]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [5]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [5]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [5]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [10]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [2]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [10]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [2]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [4]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [2]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [0]: Zostałem postrzelony, Chcę naprawę, lamport = 16
+ [0]: Wysyłam Potrzebe doku do 0, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 1, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 2, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 3, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 4, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 5, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 6, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 7, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 8, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 9, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 10, lamport = 17
+ [0]: Wysyłam Potrzebe doku do 11, lamport = 17
+ [0]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 17
+ [0]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [1]: Otrzymałem Potrzebe Mechaników od 1, lamport = 15
+ [0]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [0]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 19
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 15
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 16
+ [0]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 20
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 17
+ [0]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 21
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 18
+ [0]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 22
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 19
+ [0]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 23
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 20
+ [0]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 24
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 21
+ [0]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 31
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 22
+ [0]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 32
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 23
+ [4]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [1]: Dostałem 23 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 23
- [0]: Dostałem 9 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 22
- [3]: Zostałem postrzelony, Chcę naprawę, lamport = 15
- [3]: Wysyłam Potrzebe doku do 0, lamport = 16
- [3]: Wysyłam Potrzebe doku do 1, lamport = 16
- [3]: Wysyłam Potrzebe doku do 2, lamport = 16
- [3]: Wysyłam Potrzebe doku do 3, lamport = 16
- [3]: Wysyłam Potrzebe doku do 4, lamport = 16
- [3]: Wysyłam Potrzebe doku do 5, lamport = 16
- [1]: Otrzymałem Potrzebe doku od 3, lamport = 24
+ [4]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [3]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [1]: Wysyłam Potwierdzenie o Doku do 3, lamport = 24
- [0]: Otrzymałem Potrzebe doku od 3, lamport = 23
+ [3]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [11]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [0]: Wysyłam Potwierdzenie o Doku do 3, lamport = 23
- [2]: Otrzymałem Potrzebe doku od 3, lamport = 17
+ [11]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [7]: Otrzymałem Potrzebe doku od 0, lamport = 18
 
- [2]: Wysyłam Potwierdzenie o Doku do 3, lamport = 17
- [3]: Wysyłam Potrzebe doku do 6, lamport = 16
- [3]: Wysyłam Potrzebe doku do 7, lamport = 16
- [3]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 16
- [3]: Otrzymałem Potrzebe doku od 3, lamport = 17
+ [7]: Wysyłam Potwierdzenie o Doku do 0, lamport = 18
+ [6]: Otrzymałem Potrzebe doku od 0, lamport = 30
 
- [3]: Wysyłam Potwierdzenie o Doku do 3, lamport = 17
- [3]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 18
+ [6]: Wysyłam Potwierdzenie o Doku do 0, lamport = 30
+ [0]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 33
 
- [4]: Otrzymałem Potrzebe doku od 3, lamport = 17
+ [0]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 34
 
- [4]: Wysyłam Potwierdzenie o Doku do 3, lamport = 17
- [6]: Otrzymałem Potrzebe doku od 3, lamport = 17
+ [0]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 35
 
- [6]: Wysyłam Potwierdzenie o Doku do 3, lamport = 17
- [7]: Otrzymałem Potrzebe doku od 3, lamport = 17
+ [0]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 36
 
- [7]: Wysyłam Potwierdzenie o Doku do 3, lamport = 17
- [5]: Otrzymałem Potrzebe doku od 3, lamport = 17
+ [0]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 36
+ [0]: Wysyłam Potrzebe Mechaników do 0, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 1, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 2, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 3, lamport = 37
+ [2]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [5]: Wysyłam Potwierdzenie o Doku do 3, lamport = 17
- [3]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 25
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [0]: Wysyłam Potrzebe Mechaników do 4, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 5, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 6, lamport = 37
+ [6]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [3]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 26
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [4]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [3]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 27
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [3]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [3]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 28
+ [11]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [3]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 29
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [7]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [3]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 30
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [8]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [3]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 31
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [9]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [0]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [1]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [2]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [10]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [3]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 31
- [3]: Wysyłam Potrzebe Mechaników do 0, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 1, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 2, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 3, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 4, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 5, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 6, lamport = 32
- [3]: Wysyłam Potrzebe Mechaników do 7, lamport = 32
- [3]: Żadanie o 16 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 32
- [1]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [0]: Wysyłam Potrzebe Mechaników do 7, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 8, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 9, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 10, lamport = 37
+ [0]: Wysyłam Potrzebe Mechaników do 11, lamport = 37
+ [0]: Żadanie o 3 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 37
+ [0]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [4]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 39
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [5]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 40
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [6]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 41
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [7]: Otrzymałem Potrzebe Mechaników od 3, lamport = 33
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 42
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 33
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 34
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 43
 
- [3]: Otrzymałem Potrzebe Mechaników od 3, lamport = 35
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 44
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 35
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 36
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 45
 
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 37
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 46
 
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 38
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 47
 
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 39
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 48
 
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 40
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 49
 
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 41
+ [0]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 50
 
- [3]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 42
+ [0]: Dostałem 3 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 50
+ [11]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [0]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 33
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 34
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 34
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 34
- [1]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 35
+ [0]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 51
 
- [6]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 35
+ [0]: Otrzymałem Zwalniam dok od 6, lamport = 52
 
- [2]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 35
+ [3]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [3]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 43
+ [3]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [3]: Dostałem 16 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 43
- [1]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 35
- [1]: Otrzymałem Zwalniam dok od 0, lamport = 36
+ [7]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 37
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 37
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 37
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 37
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 37
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 37
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 37
- [4]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 35
+ [7]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [4]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 38
+ [8]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [7]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 35
+ [9]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [7]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 38
+ [9]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 34
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 34
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 34
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 34
- [0]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 34
- [0]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 34
- [0]: Wysyłam Zwalniam dok do 0, lamport = 35
- [0]: Wysyłam Zwalniam dok do 1, lamport = 35
- [5]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 35
+ [5]: Otrzymałem Potrzebe Mechaników od 0, lamport = 38
 
- [5]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 38
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 38
+ [5]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [6]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 38
+ [1]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [2]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 38
+ [1]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 37
- [1]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 37
- [1]: Wysyłam Zwalniam dok do 0, lamport = 38
- [1]: Wysyłam Zwalniam dok do 1, lamport = 38
- [3]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 44
+ [2]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [3]: Otrzymałem Zwalniam dok od 0, lamport = 45
+ [2]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [6]: Otrzymałem Zwalniam dok od 0, lamport = 39
+ [10]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [2]: Otrzymałem Zwalniam dok od 0, lamport = 39
+ [10]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [2]: Otrzymałem Zwalniam dok od 1, lamport = 40
+ [6]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 38
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 8, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 9, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 10, lamport = 39
+ [6]: Wysyłam Zwolnienie trzymanych mechaników do 11, lamport = 39
+ [6]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 39
+ [6]: Wysyłam Zwalniam dok do 0, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 1, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 2, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 3, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 4, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 5, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 6, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 7, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 8, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 9, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 10, lamport = 40
+ [6]: Wysyłam Zwalniam dok do 11, lamport = 40
+ [6]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 41
 
- [4]: Otrzymałem Zwalniam dok od 0, lamport = 39
+ [6]: Otrzymałem Zwalniam dok od 6, lamport = 42
 
- [4]: Otrzymałem Zwalniam dok od 1, lamport = 40
+ [4]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 40
 
- [7]: Otrzymałem Zwalniam dok od 0, lamport = 39
+ [4]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [7]: Otrzymałem Zwalniam dok od 1, lamport = 40
+ [11]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [0]: Wysyłam Zwalniam dok do 2, lamport = 35
- [0]: Wysyłam Zwalniam dok do 3, lamport = 35
- [0]: Wysyłam Zwalniam dok do 4, lamport = 35
- [0]: Wysyłam Zwalniam dok do 5, lamport = 35
- [0]: Wysyłam Zwalniam dok do 6, lamport = 35
- [0]: Wysyłam Zwalniam dok do 7, lamport = 35
- [0]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 36
+ [8]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [0]: Otrzymałem Zwalniam dok od 0, lamport = 37
+ [5]: Otrzymałem Zwalniam dok od 6, lamport = 41
 
- [0]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 38
+ [0]: Otrzymałem Potrzebe doku od 8, lamport = 53
 
- [0]: Otrzymałem Zwalniam dok od 1, lamport = 39
+ [0]: Wysyłam Potwierdzenie o Doku do 8, lamport = 53
+ [0]: Otrzymałem Potrzebe doku od 7, lamport = 54
 
- [5]: Otrzymałem Zwalniam dok od 0, lamport = 39
+ [0]: Wysyłam Potwierdzenie o Doku do 7, lamport = 54
+ [0]: Otrzymałem Potrzebe doku od 9, lamport = 55
 
- [5]: Otrzymałem Zwalniam dok od 1, lamport = 40
+ [0]: Wysyłam Potwierdzenie o Doku do 9, lamport = 55
+ [0]: Otrzymałem Potrzebe doku od 3, lamport = 56
 
- [1]: Wysyłam Zwalniam dok do 2, lamport = 38
- [1]: Wysyłam Zwalniam dok do 3, lamport = 38
- [1]: Wysyłam Zwalniam dok do 4, lamport = 38
- [1]: Wysyłam Zwalniam dok do 5, lamport = 38
- [1]: Wysyłam Zwalniam dok do 6, lamport = 38
- [1]: Wysyłam Zwalniam dok do 7, lamport = 38
- [3]: Otrzymałem Zwalniam dok od 1, lamport = 46
+ [0]: Wysyłam Potwierdzenie o Doku do 3, lamport = 56
+ [0]: Otrzymałem Potrzebe doku od 11, lamport = 57
 
- [6]: Otrzymałem Zwalniam dok od 1, lamport = 40
+ [0]: Wysyłam Potwierdzenie o Doku do 11, lamport = 57
+ [3]: Otrzymałem Potrzebe doku od 8, lamport = 43
 
- [1]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 39
+ [3]: Wysyłam Potwierdzenie o Doku do 8, lamport = 43
+ [3]: Otrzymałem Potrzebe doku od 7, lamport = 44
 
- [1]: Otrzymałem Zwalniam dok od 1, lamport = 40
+ [3]: Wysyłam Potwierdzenie o Doku do 7, lamport = 44
+ [3]: Zostałem postrzelony, Chcę naprawę, lamport = 44
+ [3]: Wysyłam Potrzebe doku do 0, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 1, lamport = 45
+ [7]: Zostałem postrzelony, Chcę naprawę, lamport = 41
+ [7]: Wysyłam Potrzebe doku do 0, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 1, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 2, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 3, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 4, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 5, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 6, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 7, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 8, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 9, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 10, lamport = 42
+ [7]: Wysyłam Potrzebe doku do 11, lamport = 42
+ [7]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 42
+ [9]: Zostałem postrzelony, Chcę naprawę, lamport = 41
+ [9]: Wysyłam Potrzebe doku do 0, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 1, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 2, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 3, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 4, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 5, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 6, lamport = 42
+ [8]: Zostałem postrzelony, Chcę naprawę, lamport = 41
+ [8]: Wysyłam Potrzebe doku do 0, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 1, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 2, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 3, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 4, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 5, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 6, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 7, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 8, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 9, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 10, lamport = 42
+ [8]: Wysyłam Potrzebe doku do 11, lamport = 42
+ [8]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 42
+ [1]: Otrzymałem Potrzebe doku od 8, lamport = 43
 
- [0]: Otrzymałem Potrzebe doku od 6, lamport = 42
+ [1]: Wysyłam Potwierdzenie o Doku do 8, lamport = 43
+ [1]: Otrzymałem Potrzebe doku od 7, lamport = 44
 
- [0]: Wysyłam Potwierdzenie o Doku do 6, lamport = 42
- [6]: Zostałem postrzelony, Chcę naprawę, lamport = 40
- [6]: Wysyłam Potrzebe doku do 0, lamport = 41
- [6]: Wysyłam Potrzebe doku do 1, lamport = 41
- [6]: Wysyłam Potrzebe doku do 2, lamport = 41
- [6]: Wysyłam Potrzebe doku do 3, lamport = 41
- [6]: Wysyłam Potrzebe doku do 4, lamport = 41
- [6]: Wysyłam Potrzebe doku do 5, lamport = 41
- [6]: Wysyłam Potrzebe doku do 6, lamport = 41
- [1]: Otrzymałem Potrzebe doku od 6, lamport = 42
+ [1]: Wysyłam Potwierdzenie o Doku do 7, lamport = 44
+ [1]: Otrzymałem Potrzebe doku od 9, lamport = 45
 
- [1]: Wysyłam Potwierdzenie o Doku do 6, lamport = 42
- [3]: Otrzymałem Potrzebe doku od 6, lamport = 47
+ [1]: Wysyłam Potwierdzenie o Doku do 9, lamport = 45
+ [1]: Otrzymałem Potrzebe doku od 3, lamport = 46
 
- [3]: Wysyłam Potwierdzenie o Doku do 6, lamport = 47
- [2]: Otrzymałem Potrzebe doku od 6, lamport = 42
+ [1]: Wysyłam Potwierdzenie o Doku do 3, lamport = 46
+ [1]: Otrzymałem Potrzebe doku od 11, lamport = 47
 
- [2]: Wysyłam Potwierdzenie o Doku do 6, lamport = 42
- [4]: Otrzymałem Potrzebe doku od 6, lamport = 42
+ [1]: Wysyłam Potwierdzenie o Doku do 11, lamport = 47
+ [2]: Otrzymałem Potrzebe doku od 7, lamport = 43
 
- [4]: Wysyłam Potwierdzenie o Doku do 6, lamport = 42
- [5]: Otrzymałem Potrzebe doku od 6, lamport = 42
+ [2]: Wysyłam Potwierdzenie o Doku do 7, lamport = 43
+ [2]: Otrzymałem Potrzebe doku od 8, lamport = 44
 
- [5]: Wysyłam Potwierdzenie o Doku do 6, lamport = 42
- [6]: Wysyłam Potrzebe doku do 7, lamport = 41
- [6]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 41
- [6]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 43
+ [6]: Otrzymałem Potrzebe doku od 8, lamport = 43
 
- [6]: Otrzymałem Potrzebe doku od 6, lamport = 44
+ [6]: Wysyłam Potwierdzenie o Doku do 8, lamport = 43
+ [6]: Otrzymałem Potrzebe doku od 7, lamport = 44
 
- [6]: Wysyłam Potwierdzenie o Doku do 6, lamport = 44
- [6]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 45
+ [6]: Wysyłam Potwierdzenie o Doku do 7, lamport = 44
+ [6]: Otrzymałem Potrzebe doku od 9, lamport = 45
 
- [1]: Otrzymałem Potrzebe doku od 4, lamport = 44
+ [6]: Wysyłam Potwierdzenie o Doku do 9, lamport = 45
+ [4]: Otrzymałem Potrzebe doku od 8, lamport = 43
 
- [1]: Wysyłam Potwierdzenie o Doku do 4, lamport = 44
- [3]: Otrzymałem Potrzebe doku od 4, lamport = 48
+ [4]: Wysyłam Potwierdzenie o Doku do 8, lamport = 43
+ [4]: Otrzymałem Potrzebe doku od 7, lamport = 44
 
- [3]: Wysyłam Potwierdzenie o Doku do 4, lamport = 48
- [2]: Otrzymałem Potrzebe doku od 4, lamport = 44
+ [4]: Wysyłam Potwierdzenie o Doku do 7, lamport = 44
+ [4]: Otrzymałem Potrzebe doku od 9, lamport = 45
 
- [2]: Wysyłam Potwierdzenie o Doku do 4, lamport = 44
- [7]: Otrzymałem Potrzebe doku od 6, lamport = 42
+ [4]: Wysyłam Potwierdzenie o Doku do 9, lamport = 45
+ [5]: Otrzymałem Potrzebe doku od 8, lamport = 43
 
- [7]: Wysyłam Potwierdzenie o Doku do 6, lamport = 42
- [7]: Otrzymałem Potrzebe doku od 4, lamport = 44
+ [5]: Wysyłam Potwierdzenie o Doku do 8, lamport = 43
+ [5]: Otrzymałem Potrzebe doku od 7, lamport = 44
 
- [7]: Wysyłam Potwierdzenie o Doku do 4, lamport = 44
- [4]: Zostałem postrzelony, Chcę naprawę, lamport = 42
- [4]: Wysyłam Potrzebe doku do 0, lamport = 43
- [4]: Wysyłam Potrzebe doku do 1, lamport = 43
- [4]: Wysyłam Potrzebe doku do 2, lamport = 43
- [4]: Wysyłam Potrzebe doku do 3, lamport = 43
- [4]: Wysyłam Potrzebe doku do 4, lamport = 43
- [4]: Wysyłam Potrzebe doku do 5, lamport = 43
- [4]: Wysyłam Potrzebe doku do 6, lamport = 43
- [4]: Wysyłam Potrzebe doku do 7, lamport = 43
- [4]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 43
- [4]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 45
+ [5]: Wysyłam Potwierdzenie o Doku do 7, lamport = 44
+ [7]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 55
 
- [4]: Otrzymałem Potrzebe doku od 4, lamport = 46
+ [7]: Otrzymałem Potrzebe doku od 7, lamport = 56
 
- [4]: Wysyłam Potwierdzenie o Doku do 4, lamport = 46
- [5]: Otrzymałem Potrzebe doku od 4, lamport = 44
+ [7]: Wysyłam Potwierdzenie o Doku do 7, lamport = 56
+ [7]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 57
 
- [5]: Wysyłam Potwierdzenie o Doku do 4, lamport = 44
- [0]: Otrzymałem Potrzebe doku od 4, lamport = 44
+ [9]: Wysyłam Potrzebe doku do 7, lamport = 42
+ [10]: Otrzymałem Potrzebe doku od 8, lamport = 43
 
- [0]: Wysyłam Potwierdzenie o Doku do 4, lamport = 44
- [4]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 47
+ [10]: Wysyłam Potwierdzenie o Doku do 8, lamport = 43
+ [10]: Otrzymałem Potrzebe doku od 7, lamport = 44
 
- [6]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 46
+ [10]: Wysyłam Potwierdzenie o Doku do 7, lamport = 44
+ [2]: Wysyłam Potwierdzenie o Doku do 8, lamport = 44
+ [6]: Otrzymałem Potrzebe doku od 11, lamport = 46
 
- [6]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 47
+ [6]: Wysyłam Potwierdzenie o Doku do 11, lamport = 46
+ [6]: Otrzymałem Potrzebe doku od 3, lamport = 47
 
- [6]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 48
+ [6]: Wysyłam Potwierdzenie o Doku do 3, lamport = 47
+ [4]: Otrzymałem Potrzebe doku od 3, lamport = 46
 
- [6]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 49
+ [4]: Wysyłam Potwierdzenie o Doku do 3, lamport = 46
+ [4]: Otrzymałem Potrzebe doku od 11, lamport = 47
 
- [6]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 50
+ [4]: Wysyłam Potwierdzenie o Doku do 11, lamport = 47
+ [4]: Otrzymałem Potrzebe doku od 2, lamport = 49
 
- [6]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 51
+ [4]: Wysyłam Potwierdzenie o Doku do 2, lamport = 49
+ [4]: Otrzymałem Potrzebe doku od 5, lamport = 53
 
- [6]: Otrzymałem Potrzebe doku od 4, lamport = 52
+ [4]: Wysyłam Potwierdzenie o Doku do 5, lamport = 53
+ [3]: Wysyłam Potrzebe doku do 2, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 3, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 4, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 5, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 6, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 7, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 8, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 9, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 10, lamport = 45
+ [3]: Wysyłam Potrzebe doku do 11, lamport = 45
+ [3]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 45
+ [3]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 57
 
- [6]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 52
- [6]: Wysyłam Potwierdzenie o Doku do 4, lamport = 52
- [6]: Wysyłam Potrzebe Mechaników do 0, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 1, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 2, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 3, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 4, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 5, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 6, lamport = 53
- [6]: Wysyłam Potrzebe Mechaników do 7, lamport = 53
- [6]: Żadanie o 30 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 53
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 55
+ [3]: Otrzymałem Potrzebe doku od 3, lamport = 58
 
- [6]: Otrzymałem Potrzebe Mechaników od 6, lamport = 56
+ [3]: Wysyłam Potwierdzenie o Doku do 3, lamport = 58
+ [3]: Otrzymałem Potrzebe doku od 9, lamport = 59
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 56
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 57
+ [3]: Wysyłam Potwierdzenie o Doku do 9, lamport = 59
+ [3]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 60
 
- [4]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 48
+ [3]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 61
 
- [4]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 49
+ [3]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 62
 
- [4]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 53
+ [3]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 63
 
- [4]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 54
+ [3]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 69
 
- [4]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 55
+ [3]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 70
 
- [4]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 56
+ [3]: Otrzymałem Potrzebe doku od 11, lamport = 71
 
- [4]: Otrzymałem Potrzebe Mechaników od 6, lamport = 57
+ [3]: Wysyłam Potwierdzenie o Doku do 11, lamport = 71
+ [3]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 72
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 57
- [1]: Otrzymałem Potrzebe Mechaników od 6, lamport = 54
+ [3]: Otrzymałem Potrzebe doku od 2, lamport = 73
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 54
- [3]: Otrzymałem Potrzebe Mechaników od 6, lamport = 54
+ [3]: Wysyłam Potwierdzenie o Doku do 2, lamport = 73
+ [11]: Zostałem postrzelony, Chcę naprawę, lamport = 41
+ [11]: Wysyłam Potrzebe doku do 0, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 1, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 2, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 3, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 4, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 5, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 6, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 7, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 8, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 9, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 10, lamport = 42
+ [11]: Wysyłam Potrzebe doku do 11, lamport = 42
+ [11]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 42
+ [11]: Otrzymałem Potrzebe doku od 11, lamport = 43
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 54
- [2]: Otrzymałem Potrzebe Mechaników od 6, lamport = 54
+ [11]: Wysyłam Potwierdzenie o Doku do 11, lamport = 43
+ [11]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 44
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 54
- [7]: Otrzymałem Potrzebe Mechaników od 6, lamport = 54
+ [11]: Otrzymałem Potrzebe doku od 7, lamport = 45
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 54
- [0]: Otrzymałem Potrzebe Mechaników od 6, lamport = 54
+ [11]: Wysyłam Potwierdzenie o Doku do 7, lamport = 45
+ [11]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 58
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 54
- [0]: Otrzymałem Potrzebe Mechaników od 4, lamport = 59
+ [11]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 59
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 59
- [5]: Otrzymałem Potrzebe Mechaników od 6, lamport = 54
+ [11]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 60
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 6, lamport = 54
- [5]: Otrzymałem Potrzebe Mechaników od 4, lamport = 59
+ [11]: Otrzymałem Potrzebe doku od 3, lamport = 61
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 59
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 58
+ [11]: Wysyłam Potwierdzenie o Doku do 3, lamport = 61
+ [11]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 62
 
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 59
+ [11]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 63
 
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 60
+ [11]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 64
 
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 61
+ [11]: Otrzymałem Potrzebe doku od 8, lamport = 65
 
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 62
+ [11]: Wysyłam Potwierdzenie o Doku do 8, lamport = 65
+ [11]: Otrzymałem Potrzebe doku od 9, lamport = 66
 
- [6]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 63
+ [11]: Wysyłam Potwierdzenie o Doku do 9, lamport = 66
+ [11]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 67
 
- [6]: Otrzymałem Potrzebe Mechaników od 4, lamport = 64
+ [11]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 68
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 64
- [4]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 57
- [4]: Wysyłam Potrzebe Mechaników do 0, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 1, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 2, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 3, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 4, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 5, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 6, lamport = 58
- [4]: Wysyłam Potrzebe Mechaników do 7, lamport = 58
- [4]: Żadanie o 4 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 58
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 60
+ [11]: Otrzymałem Potrzebe doku od 2, lamport = 69
 
- [4]: Otrzymałem Potrzebe Mechaników od 4, lamport = 61
+ [11]: Wysyłam Potwierdzenie o Doku do 2, lamport = 69
+ [11]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 70
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 61
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 62
+ [11]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 72
 
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 63
+ [11]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 73
 
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 64
+ [2]: Otrzymałem Potrzebe doku od 9, lamport = 45
 
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 65
+ [2]: Wysyłam Potwierdzenie o Doku do 9, lamport = 45
+ [2]: Otrzymałem Potrzebe doku od 11, lamport = 46
 
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 66
+ [2]: Wysyłam Potwierdzenie o Doku do 11, lamport = 46
+ [2]: Otrzymałem Potrzebe doku od 3, lamport = 47
 
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 67
+ [2]: Wysyłam Potwierdzenie o Doku do 3, lamport = 47
+ [2]: Zostałem postrzelony, Chcę naprawę, lamport = 44
+ [2]: Wysyłam Potrzebe doku do 0, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 1, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 2, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 3, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 4, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 5, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 6, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 7, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 8, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 9, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 10, lamport = 48
+ [2]: Wysyłam Potrzebe doku do 11, lamport = 48
+ [2]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 48
+ [2]: Otrzymałem Potrzebe doku od 2, lamport = 49
 
- [4]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 68
+ [2]: Wysyłam Potwierdzenie o Doku do 2, lamport = 49
+ [2]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 50
 
- [1]: Otrzymałem Potrzebe Mechaników od 4, lamport = 59
+ [2]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 59
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 59
- [3]: Otrzymałem Potrzebe Mechaników od 4, lamport = 59
+ [2]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 60
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 59
- [2]: Otrzymałem Potrzebe Mechaników od 4, lamport = 59
+ [2]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 61
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 59
- [7]: Otrzymałem Potrzebe Mechaników od 4, lamport = 59
+ [2]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 62
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 4, lamport = 59
- [4]: Otrzymałem Potrzebe doku od 1, lamport = 69
+ [2]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 72
 
- [4]: Wysyłam Potwierdzenie o Doku do 1, lamport = 69
- [1]: Zostałem postrzelony, Chcę naprawę, lamport = 59
- [1]: Wysyłam Potrzebe doku do 0, lamport = 60
- [1]: Wysyłam Potrzebe doku do 1, lamport = 60
- [1]: Wysyłam Potrzebe doku do 2, lamport = 60
- [1]: Wysyłam Potrzebe doku do 3, lamport = 60
- [1]: Wysyłam Potrzebe doku do 4, lamport = 60
- [1]: Wysyłam Potrzebe doku do 5, lamport = 60
- [1]: Wysyłam Potrzebe doku do 6, lamport = 60
- [1]: Wysyłam Potrzebe doku do 7, lamport = 60
- [1]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 60
- [3]: Otrzymałem Potrzebe doku od 1, lamport = 61
+ [2]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 73
 
- [3]: Wysyłam Potwierdzenie o Doku do 1, lamport = 61
- [2]: Otrzymałem Potrzebe doku od 1, lamport = 61
+ [2]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 74
 
- [2]: Wysyłam Potwierdzenie o Doku do 1, lamport = 61
- [0]: Otrzymałem Potrzebe doku od 1, lamport = 61
+ [2]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 75
 
- [0]: Wysyłam Potwierdzenie o Doku do 1, lamport = 61
- [7]: Otrzymałem Potrzebe doku od 1, lamport = 61
+ [2]: Otrzymałem Potrzebe doku od 5, lamport = 76
 
- [7]: Wysyłam Potwierdzenie o Doku do 1, lamport = 61
- [5]: Otrzymałem Potrzebe doku od 1, lamport = 61
+ [2]: Wysyłam Potwierdzenie o Doku do 5, lamport = 76
+ [2]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 77
 
- [5]: Wysyłam Potwierdzenie o Doku do 1, lamport = 61
- [6]: Otrzymałem Potrzebe doku od 1, lamport = 65
+ [2]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 78
 
- [6]: Wysyłam Potwierdzenie o Doku do 1, lamport = 65
- [1]: Otrzymałem Potrzebe doku od 1, lamport = 61
+ [6]: Otrzymałem Potrzebe doku od 2, lamport = 49
 
- [1]: Wysyłam Potwierdzenie o Doku do 1, lamport = 61
- [1]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 62
+ [6]: Wysyłam Potwierdzenie o Doku do 2, lamport = 49
+ [6]: Otrzymałem Potrzebe doku od 5, lamport = 53
 
- [1]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 63
+ [6]: Wysyłam Potwierdzenie o Doku do 5, lamport = 53
+ [6]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [1]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 64
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [6]: Otrzymałem Potrzebe Mechaników od 7, lamport = 76
 
- [1]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 65
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 76
+ [6]: Otrzymałem Potrzebe Mechaników od 8, lamport = 77
 
- [1]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 70
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 77
+ [0]: Otrzymałem Potrzebe doku od 2, lamport = 58
 
- [1]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 71
+ [0]: Wysyłam Potwierdzenie o Doku do 2, lamport = 58
+ [0]: Otrzymałem Potrzebe doku od 5, lamport = 59
 
- [1]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 72
+ [0]: Wysyłam Potwierdzenie o Doku do 5, lamport = 59
+ [0]: Otrzymałem Potrzebe Mechaników od 7, lamport = 74
 
- [1]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 73
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 74
+ [0]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [0]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [0]: Otrzymałem Potrzebe Mechaników od 8, lamport = 76
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [4]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 76
+ [3]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 74
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [6]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [3]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 75
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [3]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [3]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 76
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [2]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [3]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 77
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [1]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 73
- [1]: Wysyłam Potrzebe Mechaników do 0, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 1, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 2, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 3, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 4, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 5, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 6, lamport = 74
- [1]: Wysyłam Potrzebe Mechaników do 7, lamport = 74
- [1]: Żadanie o 2 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 74
- [1]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [3]: Otrzymałem Potrzebe doku od 5, lamport = 78
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 76
+ [3]: Wysyłam Potwierdzenie o Doku do 5, lamport = 78
+ [3]: Otrzymałem Potrzebe Mechaników od 7, lamport = 79
 
- [7]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 79
+ [3]: Otrzymałem Potrzebe Mechaników od 8, lamport = 80
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [5]: Otrzymałem Potrzebe Mechaników od 1, lamport = 75
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 80
+ [3]: Otrzymałem Potrzebe Mechaników od 9, lamport = 81
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 1, lamport = 75
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 77
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 81
+ [5]: Otrzymałem Potrzebe doku od 9, lamport = 45
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 78
+ [5]: Wysyłam Potwierdzenie o Doku do 9, lamport = 45
+ [5]: Otrzymałem Potrzebe doku od 2, lamport = 49
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 79
+ [5]: Wysyłam Potwierdzenie o Doku do 2, lamport = 49
+ [5]: Otrzymałem Potrzebe doku od 3, lamport = 50
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 80
+ [5]: Wysyłam Potwierdzenie o Doku do 3, lamport = 50
+ [5]: Otrzymałem Potrzebe doku od 11, lamport = 51
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 81
+ [5]: Wysyłam Potwierdzenie o Doku do 11, lamport = 51
+ [5]: Zostałem postrzelony, Chcę naprawę, lamport = 51
+ [5]: Wysyłam Potrzebe doku do 0, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 1, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 2, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 3, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 4, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 5, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 6, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 7, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 8, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 9, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 10, lamport = 52
+ [5]: Wysyłam Potrzebe doku do 11, lamport = 52
+ [5]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 52
+ [5]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 60
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 82
+ [5]: Otrzymałem Potrzebe doku od 5, lamport = 61
 
- [1]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 83
+ [5]: Wysyłam Potwierdzenie o Doku do 5, lamport = 61
+ [5]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 62
 
- [5]: Zostałem postrzelony, Chcę naprawę, lamport = 75
- [5]: Wysyłam Potrzebe doku do 0, lamport = 76
- [5]: Wysyłam Potrzebe doku do 1, lamport = 76
- [5]: Wysyłam Potrzebe doku do 2, lamport = 76
- [5]: Wysyłam Potrzebe doku do 3, lamport = 76
- [5]: Wysyłam Potrzebe doku do 4, lamport = 76
- [5]: Wysyłam Potrzebe doku do 5, lamport = 76
- [5]: Wysyłam Potrzebe doku do 6, lamport = 76
- [5]: Wysyłam Potrzebe doku do 7, lamport = 76
- [5]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 76
- [0]: Otrzymałem Potrzebe doku od 5, lamport = 77
+ [5]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 63
 
- [0]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
- [4]: Otrzymałem Potrzebe doku od 5, lamport = 77
+ [5]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 64
 
- [4]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
- [6]: Otrzymałem Potrzebe doku od 5, lamport = 77
+ [5]: Otrzymałem Potrzebe Mechaników od 7, lamport = 74
 
- [6]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
- [3]: Otrzymałem Potrzebe doku od 5, lamport = 77
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 74
+ [5]: Otrzymałem Potrzebe Mechaników od 8, lamport = 75
 
- [3]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
- [1]: Otrzymałem Potrzebe doku od 5, lamport = 84
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 75
+ [5]: Otrzymałem Potrzebe Mechaników od 9, lamport = 76
 
- [1]: Wysyłam Potwierdzenie o Doku do 5, lamport = 84
- [5]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 85
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 76
+ [5]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 77
 
- [5]: Otrzymałem Potrzebe doku od 5, lamport = 86
+ [5]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 78
 
- [5]: Wysyłam Potwierdzenie o Doku do 5, lamport = 86
- [5]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 87
+ [5]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 79
 
- [0]: Otrzymałem Potrzebe doku od 2, lamport = 79
+ [5]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 80
 
- [0]: Wysyłam Potwierdzenie o Doku do 2, lamport = 79
- [1]: Otrzymałem Potrzebe doku od 2, lamport = 85
+ [5]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 81
 
- [1]: Wysyłam Potwierdzenie o Doku do 2, lamport = 85
- [7]: Otrzymałem Potrzebe doku od 5, lamport = 77
+ [5]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 82
 
- [7]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
- [7]: Otrzymałem Potrzebe doku od 2, lamport = 79
+ [5]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 83
 
- [7]: Wysyłam Potwierdzenie o Doku do 2, lamport = 79
- [2]: Otrzymałem Potrzebe doku od 5, lamport = 77
+ [5]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 84
 
- [2]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
- [2]: Zostałem postrzelony, Chcę naprawę, lamport = 77
- [2]: Wysyłam Potrzebe doku do 0, lamport = 78
- [2]: Wysyłam Potrzebe doku do 1, lamport = 78
- [2]: Wysyłam Potrzebe doku do 2, lamport = 78
- [2]: Wysyłam Potrzebe doku do 3, lamport = 78
- [2]: Wysyłam Potrzebe doku do 4, lamport = 78
- [2]: Wysyłam Potrzebe doku do 5, lamport = 78
- [2]: Wysyłam Potrzebe doku do 6, lamport = 78
- [2]: Wysyłam Potrzebe doku do 7, lamport = 78
- [2]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 78
- [2]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 80
+ [7]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 58
 
- [2]: Otrzymałem Potrzebe doku od 2, lamport = 81
+ [7]: Otrzymałem Potrzebe doku od 8, lamport = 59
 
- [2]: Wysyłam Potwierdzenie o Doku do 2, lamport = 81
- [2]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 82
+ [7]: Wysyłam Potwierdzenie o Doku do 8, lamport = 59
+ [7]: Otrzymałem Potrzebe doku od 9, lamport = 60
 
- [3]: Otrzymałem Potrzebe doku od 2, lamport = 79
+ [7]: Wysyłam Potwierdzenie o Doku do 9, lamport = 60
+ [7]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 61
 
- [3]: Wysyłam Potwierdzenie o Doku do 2, lamport = 79
- [5]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 88
+ [7]: Otrzymałem Potrzebe doku od 11, lamport = 62
 
- [5]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 89
+ [7]: Wysyłam Potwierdzenie o Doku do 11, lamport = 62
+ [7]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 63
 
- [5]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 90
+ [7]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 64
 
- [5]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 91
+ [7]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 65
 
- [5]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 92
+ [7]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 66
 
- [5]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 93
+ [7]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 67
 
- [5]: Otrzymałem Potrzebe doku od 2, lamport = 94
+ [7]: Otrzymałem Potrzebe doku od 3, lamport = 68
 
- [5]: Wysyłam Potwierdzenie o Doku do 2, lamport = 94
- [4]: Otrzymałem Potrzebe doku od 2, lamport = 79
+ [7]: Wysyłam Potwierdzenie o Doku do 3, lamport = 68
+ [7]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 69
 
- [4]: Wysyłam Potwierdzenie o Doku do 2, lamport = 79
- [6]: Otrzymałem Potrzebe doku od 2, lamport = 79
+ [7]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 70
 
- [6]: Wysyłam Potwierdzenie o Doku do 2, lamport = 79
- [2]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 86
+ [7]: Otrzymałem Potrzebe doku od 2, lamport = 71
 
- [2]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 87
+ [7]: Wysyłam Potwierdzenie o Doku do 2, lamport = 71
+ [7]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 72
 
- [2]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 88
+ [7]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 72
+ [7]: Wysyłam Potrzebe Mechaników do 0, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 1, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 2, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 3, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 4, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 5, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 6, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 7, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 8, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 9, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 10, lamport = 73
+ [7]: Wysyłam Potrzebe Mechaników do 11, lamport = 73
+ [7]: Żadanie o 32 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 73
+ [7]: Otrzymałem Potrzebe Mechaników od 7, lamport = 74
 
- [2]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 95
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 74
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 75
 
- [2]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 96
+ [7]: Otrzymałem Potrzebe doku od 5, lamport = 76
 
- [2]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 97
+ [7]: Wysyłam Potwierdzenie o Doku do 5, lamport = 76
+ [7]: Otrzymałem Potrzebe Mechaników od 8, lamport = 77
 
- [0]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 81
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 77
+ [7]: Otrzymałem Potrzebe Mechaników od 9, lamport = 78
 
- [3]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 79
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 80
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 80
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 80
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 80
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 80
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 80
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 80
- [2]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 98
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 78
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 79
 
- [1]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 86
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 80
 
- [6]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 81
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 81
 
- [7]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 81
+ [8]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 54
 
- [3]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 80
- [3]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 80
- [3]: Wysyłam Zwalniam dok do 0, lamport = 81
- [3]: Wysyłam Zwalniam dok do 1, lamport = 81
- [3]: Wysyłam Zwalniam dok do 2, lamport = 81
- [5]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 95
+ [8]: Otrzymałem Potrzebe doku od 8, lamport = 55
 
- [4]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 81
+ [8]: Wysyłam Potwierdzenie o Doku do 8, lamport = 55
+ [8]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 56
 
- [1]: Otrzymałem Zwalniam dok od 3, lamport = 87
+ [8]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 57
 
- [1]: Dostałem 2 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 87
- [2]: Otrzymałem Zwalniam dok od 3, lamport = 99
+ [8]: Otrzymałem Potrzebe doku od 9, lamport = 58
 
- [6]: Dostałem 30 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 81
- [0]: Otrzymałem Zwalniam dok od 3, lamport = 82
+ [8]: Wysyłam Potwierdzenie o Doku do 9, lamport = 58
+ [8]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 59
 
- [3]: Wysyłam Zwalniam dok do 3, lamport = 81
- [3]: Wysyłam Zwalniam dok do 4, lamport = 81
- [4]: Otrzymałem Zwalniam dok od 3, lamport = 82
+ [8]: Otrzymałem Potrzebe doku od 11, lamport = 60
 
- [4]: Dostałem 4 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 82
- [5]: Otrzymałem Zwalniam dok od 3, lamport = 96
+ [8]: Wysyłam Potwierdzenie o Doku do 11, lamport = 60
+ [8]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 61
 
- [3]: Wysyłam Zwalniam dok do 5, lamport = 81
- [3]: Wysyłam Zwalniam dok do 6, lamport = 81
- [3]: Wysyłam Zwalniam dok do 7, lamport = 81
- [3]: Otrzymałem Zwolnienie trzymanych mechaników od 3, lamport = 82
+ [8]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 62
 
- [3]: Otrzymałem Zwalniam dok od 3, lamport = 83
+ [8]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 63
 
- [7]: Otrzymałem Zwalniam dok od 3, lamport = 82
+ [8]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 64
 
- [6]: Otrzymałem Zwalniam dok od 3, lamport = 82
+ [8]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 65
 
- [2]: Otrzymałem Potrzebe Mechaników od 5, lamport = 100
+ [8]: Otrzymałem Potrzebe doku od 7, lamport = 66
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 100
- [3]: Otrzymałem Potrzebe Mechaników od 5, lamport = 98
+ [8]: Wysyłam Potwierdzenie o Doku do 7, lamport = 66
+ [8]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 67
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 98
- [7]: Otrzymałem Potrzebe Mechaników od 5, lamport = 98
+ [8]: Otrzymałem Potrzebe doku od 3, lamport = 68
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 98
- [0]: Otrzymałem Potrzebe Mechaników od 5, lamport = 98
+ [8]: Wysyłam Potwierdzenie o Doku do 3, lamport = 68
+ [8]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 69
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 98
- [4]: Otrzymałem Potrzebe Mechaników od 5, lamport = 98
+ [8]: Otrzymałem Potrzebe doku od 2, lamport = 70
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 98
- [6]: Otrzymałem Potrzebe Mechaników od 5, lamport = 98
+ [8]: Wysyłam Potwierdzenie o Doku do 2, lamport = 70
+ [8]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 71
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 98
- [5]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 96
- [5]: Wysyłam Potrzebe Mechaników do 0, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 1, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 2, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 3, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 4, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 5, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 6, lamport = 97
- [5]: Wysyłam Potrzebe Mechaników do 7, lamport = 97
- [5]: Żadanie o 20 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 97
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 99
+ [8]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 71
+ [8]: Wysyłam Potrzebe Mechaników do 0, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 1, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 2, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 3, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 4, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 5, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 6, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 7, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 8, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 9, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 10, lamport = 72
+ [8]: Wysyłam Potrzebe Mechaników do 11, lamport = 72
+ [8]: Żadanie o 36 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 72
+ [8]: Otrzymałem Potrzebe Mechaników od 8, lamport = 73
 
- [5]: Otrzymałem Potrzebe Mechaników od 5, lamport = 100
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 73
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 74
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 100
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 101
+ [8]: Otrzymałem Potrzebe doku od 5, lamport = 75
 
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 102
+ [8]: Wysyłam Potwierdzenie o Doku do 5, lamport = 75
+ [8]: Otrzymałem Potrzebe Mechaników od 9, lamport = 76
 
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 103
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 76
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 78
 
- [1]: Otrzymałem Potrzebe Mechaników od 5, lamport = 98
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 79
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 5, lamport = 98
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 104
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 80
 
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 105
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 82
 
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 106
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 83
 
- [5]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 107
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 84
 
- [0]: Otrzymałem Potrzebe doku od 7, lamport = 100
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 85
 
- [0]: Wysyłam Potwierdzenie o Doku do 7, lamport = 100
- [5]: Otrzymałem Potrzebe doku od 7, lamport = 108
+ [8]: Otrzymałem Potrzebe Mechaników od 7, lamport = 86
 
- [5]: Wysyłam Potwierdzenie o Doku do 7, lamport = 108
- [1]: Otrzymałem Potrzebe doku od 7, lamport = 100
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 86
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 87
 
- [1]: Wysyłam Potwierdzenie o Doku do 7, lamport = 100
- [2]: Otrzymałem Potrzebe doku od 7, lamport = 101
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport [9]: Wysyłam Potrzebe doku do 8, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 9, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 10, lamport = 42
+ [9]: Wysyłam Potrzebe doku do 11, lamport = 42
+ [9]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 42
+ [9]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 56
 
- [2]: Wysyłam Potwierdzenie o Doku do 7, lamport = 101
- [3]: Otrzymałem Potrzebe doku od 7, lamport = 100
+ [9]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 57
 
- [3]: Wysyłam Potwierdzenie o Doku do 7, lamport = 100
- [7]: Zostałem postrzelony, Chcę naprawę, lamport = 98
- [7]: Wysyłam Potrzebe doku do 0, lamport = 99
- [7]: Wysyłam Potrzebe doku do 1, lamport = 99
- [7]: Wysyłam Potrzebe doku do 2, lamport = 99
- [7]: Wysyłam Potrzebe doku do 3, lamport = 99
- [7]: Wysyłam Potrzebe doku do 4, lamport = 99
- [7]: Wysyłam Potrzebe doku do 5, lamport = 99
- [7]: Wysyłam Potrzebe doku do 6, lamport = 99
- [7]: Wysyłam Potrzebe doku do 7, lamport = 99
- [7]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 99
- [7]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 101
+ [9]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 58
 
- [7]: Otrzymałem Potrzebe doku od 7, lamport = 102
+ [9]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 59
 
- [7]: Wysyłam Potwierdzenie o Doku do 7, lamport = 102
- [7]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 103
+ [9]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 60
 
- [7]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 104
+ [9]: Otrzymałem Potrzebe doku od 7, lamport = 61
 
- [7]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 105
+ [9]: Wysyłam Potwierdzenie o Doku do 7, lamport = 61
+ [9]: Otrzymałem Potrzebe doku od 8, lamport = 62
 
- [7]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 106
+ [9]: Wysyłam Potwierdzenie o Doku do 8, lamport = 62
+ [9]: Otrzymałem Potrzebe doku od 9, lamport = 63
 
- [7]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 107
+ [9]: Wysyłam Potwierdzenie o Doku do 9, lamport = 63
+ [9]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 64
 
- [7]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 109
+ [9]: Otrzymałem Potrzebe doku od 3, lamport = 65
 
- [7]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 110
+ [9]: Wysyłam Potwierdzenie o Doku do 3, lamport = 65
+ [9]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 66
 
- [6]: Otrzymałem Potrzebe doku od 7, lamport = 100
+ [9]: Otrzymałem Potrzebe doku od 11, lamport = 67
 
- [6]: Wysyłam Potwierdzenie o Doku do 7, lamport = 100
- [4]: Otrzymałem Potrzebe doku od 7, lamport = 100
+ [9]: Wysyłam Potwierdzenie o Doku do 11, lamport = 67
+ [9]: Otrzymałem Potrzebe doku od 2, lamport = 68
 
- [4]: Wysyłam Potwierdzenie o Doku do 7, lamport = 100
- [1]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 100
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 101
- [1]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 101
- [2]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 102
+ [9]: Wysyłam Potwierdzenie o Doku do 2, lamport = 68
+ [9]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 69
 
- [3]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 102
+ [9]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 70
 
- [0]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 102
+ [9]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 71
 
- [4]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 102
+ [9]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 72
 
- [7]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 111
+ [9]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 73
 
- [7]: Otrzymałem Zwalniam dok od 1, lamport = 112
+ [9]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 73
+ [9]: Wysyłam Potrzebe Mechaników do 0, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 1, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 2, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 3, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 4, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 5, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 6, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 7, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 8, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 9, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 10, lamport = 74
+ [9]: Wysyłam Potrzebe Mechaników do 11, lamport = 74
+ [9]: Żadanie o 22 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 74
+ [9]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [5]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 109
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 76
 
- [5]: Otrzymałem Zwalniam dok od 1, lamport = 110
+ [9]: Otrzymałem Potrzebe doku od 5, lamport = 77
 
- [6]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 102
+ [9]: Wysyłam Potwierdzenie o Doku do 5, lamport = 77
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 78
 
- [6]: Otrzymałem Zwalniam dok od 1, lamport = 103
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 79
 
- [0]: Otrzymałem Zwalniam dok od 1, lamport = 103
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 80
 
- [0]: Otrzymałem Potrzebe Mechaników od 2, lamport = 105
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 81
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 105
- [1]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 101
- [1]: Wysyłam Zwalniam dok do 0, lamport = 102
- [1]: Wysyłam Zwalniam dok do 1, lamport = 102
- [1]: Wysyłam Zwalniam dok do 2, lamport = 102
- [1]: Wysyłam Zwalniam dok do 3, lamport = 102
- [1]: Wysyłam Zwalniam dok do 4, lamport = 102
- [1]: Wysyłam Zwalniam dok do 5, lamport = 102
- [1]: Wysyłam Zwalniam dok do 6, lamport = 102
- [1]: Wysyłam Zwalniam dok do 7, lamport = 102
- [4]: Otrzymałem Zwalniam dok od 1, lamport = 103
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 82
 
- [4]: Otrzymałem Potrzebe Mechaników od 2, lamport = 105
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 83
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 105
- [5]: Otrzymałem Potrzebe Mechaników od 2, lamport = 111
+ [9]: Otrzymałem Potrzebe Mechaników od 7, lamport = 84
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 111
- [6]: Otrzymałem Potrzebe Mechaników od 2, lamport = 105
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 84
+ [9]: Ot [10]: Otrzymałem Potrzebe doku od 3, lamport = 46
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 105
- [2]: Otrzymałem Zwalniam dok od 1, lamport = 103
+ [10]: Wysyłam Potwierdzenie o Doku do 3, lamport = 46
+ [10]: Otrzymałem Potrzebe doku od 9, lamport = 47
 
- [2]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 103
- [2]: Wysyłam Potrzebe Mechaników do 0, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 1, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 2, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 3, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 4, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 5, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 6, lamport = 104
- [2]: Wysyłam Potrzebe Mechaników do 7, lamport = 104
- [2]: Żadanie o 30 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 104
- [3]: Otrzymałem Zwalniam dok od 1, lamport = 103
+ [10]: Wysyłam Potwierdzenie o Doku do 9, lamport = 47
+ [10]: Otrzymałem Potrzebe doku od 11, lamport = 48
 
- [3]: Otrzymałem Potrzebe Mechaników od 2, lamport = 105
+ [10]: Wysyłam Potwierdzenie o Doku do 11, lamport = 48
+ [10]: Otrzymałem Potrzebe doku od 2, lamport = 49
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 105
- [1]: Otrzymałem Zwolnienie trzymanych mechaników od 1, lamport = 103
+ [10]: Wysyłam Potwierdzenie o Doku do 2, lamport = 49
+ [10]: Otrzymałem Potrzebe doku od 5, lamport = 53
 
- [1]: Otrzymałem Zwalniam dok od 1, lamport = 104
+ [10]: Wysyłam Potwierdzenie o Doku do 5, lamport = 53
+ [10]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [1]: Otrzymałem Potrzebe Mechaników od 2, lamport = 105
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [10]: Otrzymałem Potrzebe Mechaników od 7, lamport = 76
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 105
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 106
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 76
+ [10]: Otrzymałem Potrzebe Mechaników od 8, lamport = 77
 
- [2]: Otrzymałem Potrzebe Mechaników od 2, lamport = 107
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 77
+ [4]: Otrzymałem Potrzebe Mechaników od 7, lamport = 74
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 107
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 108
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 74
+ [4]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 109
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [4]: Otrzymałem Potrzebe Mechaników od 8, lamport = 76
 
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 110
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 76
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 82
 
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 112
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 83
 
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 113
+ [1]: Otrzymałem Potrzebe doku od 2, lamport = 49
 
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 114
+ [1]: Wysyłam Potwierdzenie o Doku do 2, lamport = 49
+ [1]: Otrzymałem Potrzebe Mechaników od 8, lamport = 73
 
- [2]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 115
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 73
+ [1]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [7]: Otrzymałem Potrzebe Mechaników od 2, lamport = 113
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [1]: Otrzymałem Potrzebe doku od 5, lamport = 76
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 113
- [2]: Otrzymałem Potrzebe doku od 0, lamport = 116
+ [1]: Wysyłam Potwierdzenie o Doku do 5, lamport = 76
+ [1]: Otrzymałem Potrzebe Mechaników od 7, lamport = 77
 
- [2]: Wysyłam Potwierdzenie o Doku do 0, lamport = 116
- [4]: Otrzymałem Potrzebe doku od 0, lamport = 107
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 77
+ = 88
 
- [4]: Wysyłam Potwierdzenie o Doku do 0, lamport = 107
- [5]: Otrzymałem Potrzebe doku od 0, lamport = 112
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 89
 
- [5]: Wysyłam Potwierdzenie o Doku do 0, lamport = 112
- [0]: Zostałem postrzelony, Chcę naprawę, lamport = 105
- [0]: Wysyłam Potrzebe doku do 0, lamport = 106
- [0]: Wysyłam Potrzebe doku do 1, lamport = 106
- [0]: Wysyłam Potrzebe doku do 2, lamport = 106
- [0]: Wysyłam Potrzebe doku do 3, lamport = 106
- [0]: Wysyłam Potrzebe doku do 4, lamport = 106
- [0]: Wysyłam Potrzebe doku do 5, lamport = 106
- [0]: Wysyłam Potrzebe doku do 6, lamport = 106
- [0]: Wysyłam Potrzebe doku do 7, lamport = 106
- [0]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 106
- [0]: Otrzymałem Potrzebe doku od 0, lamport = 107
+ [8]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 90
 
- [0]: Wysyłam Potwierdzenie o Doku do 0, lamport = 107
- [0]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 108
+ [8]: Dostałem 36 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 90
+rzymałem Potrzebe Mechaników od 8, lamport = 85
 
- [6]: Otrzymałem Potrzebe doku od 0, lamport = 107
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 85
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 86
 
- [6]: Wysyłam Potwierdzenie o Doku do 0, lamport = 107
- [1]: Otrzymałem Potrzebe doku od 0, lamport = 107
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 87
 
- [1]: Wysyłam Potwierdzenie o Doku do 0, lamport = 107
- [7]: Otrzymałem Potrzebe doku od 0, lamport = 114
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 88
 
- [7]: Wysyłam Potwierdzenie o Doku do 0, lamport = 114
- [3]: Otrzymałem Potrzebe doku od 0, lamport = 107
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 89
 
- [3]: Wysyłam Potwierdzenie o Doku do 0, lamport = 107
- [0]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 109
+ [9]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 90
 
- [0]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 117
+ [11]: Otrzymałem Potrzebe doku od 5, lamport = 74
 
- [0]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 118
+ [11]: Wysyłam Potwierdzenie o Doku do 5, lamport = 74
+ [11]: Otrzymałem Potrzebe Mechaników od 9, lamport = 75
 
- [0]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 119
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 75
+ [11]: Otrzymałem Potrzebe Mechaników od 7, lamport = 76
 
- [0]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 120
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 76
+ [11]: Otrzymałem Potrzebe Mechaników od 8, lamport = 77
 
- [0]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 121
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 77
+ [2]: Otrzymałem Potrzebe Mechaników od 7, lamport = 79
 
- [0]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 122
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 79
+ [2]: Otrzymałem Potrzebe Mechaników od 9, lamport = 80
 
- [0]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 123
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 9, lamport = 80
+ [2]: Otrzymałem Potrzebe Mechaników od 8, lamport = 81
 
- [0]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 124
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 8, lamport = 81
+ [2]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 82
 
- [0]: Otrzymałem Zwalniam dok od 6, lamport = 125
+ [2]: Otrzymałem Potrzebe doku od 6, lamport = 83
 
- [0]: Otrzymałem Potrzebe doku od 3, lamport = 126
+ [2]: Wysyłam Potwierdzenie o Doku do 6, lamport = 83
+ [1]: Otrzymałem Potrzebe doku od 6, lamport = 79
 
- [0]: Wysyłam Potwierdzenie o Doku do 3, lamport = 126
- [1]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 109
+ [1]: Wysyłam Potwierdzenie o Doku do 6, lamport = 79
+ [8]: Otrzymałem Potrzebe doku od 6, lamport = 91
 
- [1]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 110
+ [8]: Wysyłam Potwierdzenie o Doku do 6, lamport = 91
+ [9]: Otrzymałem Potrzebe doku od 6, lamport = 91
 
- [1]: Otrzymałem Zwalniam dok od 6, lamport = 111
+ [9]: Wysyłam Potwierdzenie o Doku do 6, lamport = 91
+ [6]: Zostałem postrzelony, Chcę naprawę, lamport = 77
+ [6]: Wysyłam Potrzebe doku do 0, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 1, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 2, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 3, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 4, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 5, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 6, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 7, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 8, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 9, lamport = 78
+ [0]: Otrzymałem Potrzebe doku od 6, lamport = 79
 
- [2]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 117
+ [0]: Wysyłam Potwierdzenie o Doku do 6, lamport = 79
+ [3]: Otrzymałem Potrzebe doku od 6, lamport = 82
 
- [2]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 118
+ [3]: Wysyłam Potwierdzenie o Doku do 6, lamport = 82
+ [4]: Otrzymałem Potrzebe doku od 6, lamport = 79
 
- [2]: Otrzymałem Zwalniam dok od 6, lamport = 119
+ [4]: Wysyłam Potwierdzenie o Doku do 6, lamport = 79
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 84
 
- [2]: Otrzymałem Potrzebe doku od 3, lamport = 120
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 85
 
- [4]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 107
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 108
- [4]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 108
- [4]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 108
- [4]: Wysyłam Zwalniam dok do 0, lamport = 109
- [5]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 113
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 86
 
- [5]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 114
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 87
 
- [5]: Dostałem 20 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 114
- [3]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 109
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 88
 
- [3]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 110
+ [7]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 89
 
- [3]: Zostałem postrzelony, Chcę naprawę, lamport = 110
- [3]: Wysyłam Potrzebe doku do 0, lamport = 111
- [3]: Wysyłam Potrzebe doku do 1, lamport = 111
- [3]: Wysyłam Potrzebe doku do 2, lamport = 111
- [3]: Wysyłam Potrzebe doku do 3, lamport = 111
- [3]: Wysyłam Potrzebe doku do 4, lamport = 111
- [3]: Wysyłam Potrzebe doku do 5, lamport = 111
- [3]: Wysyłam Potrzebe doku do 6, lamport = 111
- [3]: Wysyłam Potrzebe doku do 7, lamport = 111
- [3]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 111
- [6]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 107
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 108
- [6]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 108
- [6]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 108
- [6]: Wysyłam Zwalniam dok do 0, lamport = 109
- [6]: Wysyłam Zwalniam dok do 1, lamport = 109
- [6]: Wysyłam Zwalniam dok do 2, lamport = 109
- [6]: Wysyłam Zwalniam dok do 3, lamport = 109
- [6]: Wysyłam Zwalniam dok do 4, lamport = 109
- [6]: Wysyłam Zwalniam dok do 5, lamport = 109
- [6]: Wysyłam Zwalniam dok do 6, lamport = 109
- [6]: Wysyłam Zwalniam dok do 7, lamport = 109
- [6]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 110
+ [7]: Otrzymałem Potrzebe doku od 6, lamport = 90
 
- [6]: Otrzymałem Zwalniam dok od 6, lamport = 111
+ [7]: Wysyłam Potwierdzenie o Doku do 6, lamport = 90
+ [10]: Otrzymałem Potrzebe doku od 6, lamport = 79
 
- [6]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 112
+ [10]: Wysyłam Potwierdzenie o Doku do 6, lamport = 79
+ [6]: Wysyłam Potrzebe doku do 10, lamport = 78
+ [6]: Wysyłam Potrzebe doku do 11, lamport = 78
+ [6]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 78
+ [11]: Otrzymałem Potrzebe doku od 6, lamport = 79
 
- [6]: Otrzymałem Potrzebe doku od 3, lamport = 113
+ [11]: Wysyłam Potwierdzenie o Doku do 6, lamport = 79
+ [6]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 80
 
- [6]: Wysyłam Potwierdzenie o Doku do 3, lamport = 113
- [7]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 115
+ [6]: Otrzymałem Potrzebe doku od 6, lamport = 81
 
- [7]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 116
+ [6]: Wysyłam Potwierdzenie o Doku do 6, lamport = 81
+ [6]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 82
 
- [7]: Otrzymałem Zwalniam dok od 6, lamport = 117
+ [6]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 83
 
- [7]: Otrzymałem Potrzebe doku od 3, lamport = 118
+ [6]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 84
 
- [7]: Wysyłam Potwierdzenie o Doku do 3, lamport = 118
- [0]: Otrzymałem Zwalniam dok od 4, lamport = 127
+ [6]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 91
 
- [1]: Otrzymałem Potrzebe doku od 3, lamport = 112
+ [6]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 92
 
- [1]: Wysyłam Potwierdzenie o Doku do 3, lamport = 112
- [2]: Wysyłam Potwierdzenie o Doku do 3, lamport = 120
- [5]: Otrzymałem Zwalniam dok od 6, lamport = 115
+ [6]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 93
 
- [5]: Otrzymałem Potrzebe doku od 3, lamport = 116
+ [6]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 94
 
- [5]: Wysyłam Potwierdzenie o Doku do 3, lamport = 116
- [3]: Otrzymałem Zwalniam dok od 6, lamport = 112
+ [6]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 95
 
- [3]: Otrzymałem Potrzebe doku od 3, lamport = 113
+ [6]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 96
 
- [3]: Wysyłam Potwierdzenie o Doku do 3, lamport = 113
- [3]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 114
+ [6]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 97
 
- [3]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 127
+ [6]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 98
 
- [3]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 128
+ [5]: Otrzymałem Potrzebe doku od 6, lamport = 85
 
- [3]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 129
+ [5]: Wysyłam Potwierdzenie o Doku do 6, lamport = 85
+ [10]: Zostałem postrzelony, Chcę naprawę, lamport = 79
+ [10]: Wysyłam Potrzebe doku do 0, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 1, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 2, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 3, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 4, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 5, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 6, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 7, lamport = 80
+ [0]: Otrzymałem Potrzebe doku od 10, lamport = 81
 
- [3]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 130
+ [0]: Wysyłam Potwierdzenie o Doku do 10, lamport = 81
+ [0]: Otrzymałem Potrzebe doku od 4, lamport = 82
 
- [3]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 131
+ [0]: Wysyłam Potwierdzenie o Doku do 4, lamport = 82
+ [6]: Otrzymałem Potrzebe doku od 10, lamport = 99
 
- [3]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 132
+ [6]: Wysyłam Potwierdzenie o Doku do 10, lamport = 99
+ [6]: Otrzymałem Potrzebe doku od 4, lamport = 100
 
- [0]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 127
- [0]: Wysyłam Potrzebe Mechaników do 0, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 1, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 2, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 3, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 4, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 5, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 6, lamport = 128
- [0]: Wysyłam Potrzebe Mechaników do 7, lamport = 128
- [0]: Żadanie o 19 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 128
- [0]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [6]: Wysyłam Potwierdzenie o Doku do 4, lamport = 100
+ [4]: Zostałem postrzelony, Chcę naprawę, lamport = 79
+ [4]: Wysyłam Potrzebe doku do 0, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 1, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 2, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 3, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 4, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 5, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 6, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 7, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 8, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 9, lamport = 80
+ [2]: Otrzymałem Potrzebe doku od 10, lamport = 84
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 130
+ [2]: Wysyłam Potwierdzenie o Doku do 10, lamport = 84
+ [2]: Otrzymałem Potrzebe doku od 4, lamport = 85
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 131
+ [2]: Wysyłam Potwierdzenie o Doku do 4, lamport = 85
+ [1]: Otrzymałem Potrzebe doku od 10, lamport = 81
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 132
+ [1]: Wysyłam Potwierdzenie o Doku do 10, lamport = 81
+ [1]: Otrzymałem Potrzebe doku od 4, lamport = 82
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 135
+ [1]: Wysyłam Potwierdzenie o Doku do 4, lamport = 82
+ [8]: Otrzymałem Potrzebe doku od 4, lamport = 92
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 136
+ [8]: Wysyłam Potwierdzenie o Doku do 4, lamport = 92
+ [8]: Otrzymałem Potrzebe doku od 10, lamport = 93
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 137
+ [8]: Wysyłam Potwierdzenie o Doku do 10, lamport = 93
+ [5]: Otrzymałem Potrzebe doku od 10, lamport = 86
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 138
+ [5]: Wysyłam Potwierdzenie o Doku do 10, lamport = 86
+ [5]: Otrzymałem Potrzebe doku od 4, lamport = 87
 
- [0]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 139
+ [5]: Wysyłam Potwierdzenie o Doku do 4, lamport = 87
+ [7]: Otrzymałem Potrzebe doku od 10, lamport = 91
 
- [0]: Otrzymałem Potrzebe Mechaników od 7, lamport = 140
+ [7]: Wysyłam Potwierdzenie o Doku do 10, lamport = 91
+ [7]: Otrzymałem Potrzebe doku od 4, lamport = 92
 
- [1]: Otrzymałem Zwalniam dok od 4, lamport = 113
+ [7]: Wysyłam Potwierdzenie o Doku do 4, lamport = 92
+ [10]: Wysyłam Potrzebe doku do 8, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 9, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 10, lamport = 80
+ [10]: Wysyłam Potrzebe doku do 11, lamport = 80
+ [10]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 80
+ [10]: Otrzymałem Potrzebe doku od 10, lamport = 81
 
- [1]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [3]: Otrzymałem Potrzebe doku od 10, lamport = 83
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [1]: Otrzymałem Potrzebe Mechaników od 7, lamport = 131
+ [4]: Wysyłam Potrzebe doku do 10, lamport = 80
+ [4]: Wysyłam Potrzebe doku do 11, lamport = 80
+ [4]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 80
+ [4]: Otrzymałem Potrzebe doku od 4, lamport = 81
 
- [1]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 131
- [4]: Wysyłam Zwalniam dok do 1, lamport = 109
- [4]: Wysyłam Zwalniam dok do 2, lamport = 109
- [4]: Wysyłam Zwalniam dok do 3, lamport = 109
- [4]: Wysyłam Zwalniam dok do 4, lamport = 109
- [4]: Wysyłam Zwalniam dok do 5, lamport = 109
- [4]: Wysyłam Zwalniam dok do 6, lamport = 109
- [4]: Wysyłam Zwalniam dok do 7, lamport = 109
- [4]: Otrzymałem Zwolnienie trzymanych mechaników od 6, lamport = 110
+ [4]: Wysyłam Potwierdzenie o Doku do 4, lamport = 81
+ [4]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 82
 
- [4]: Otrzymałem Zwolnienie trzymanych mechaników od 4, lamport = 111
+ [9]: Otrzymałem Potrzebe doku od 4, lamport = 92
 
- [4]: Otrzymałem Zwalniam dok od 4, lamport = 112
+ [9]: Wysyłam Potwierdzenie o Doku do 4, lamport = 92
+ [9]: Otrzymałem Potrzebe doku od 10, lamport = 93
 
- [4]: Otrzymałem Zwalniam dok od 6, lamport = 113
+ [9]: Wysyłam Potwierdzenie o Doku do 10, lamport = 93
+ [10]: Wysyłam Potwierdzenie o Doku do 10, lamport = 81
+ [10]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 82
 
- [4]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [10]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 83
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [4]: Otrzymałem Potrzebe doku od 3, lamport = 130
+ [10]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 84
 
- [4]: Wysyłam Potwierdzenie o Doku do 3, lamport = 130
- [4]: Otrzymałem Potrzebe Mechaników od 7, lamport = 131
+ [10]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 85
 
- [4]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 131
- [2]: Otrzymałem Zwalniam dok od 4, lamport = 121
+ [10]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 86
 
- [2]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [10]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 87
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [2]: Otrzymałem Potrzebe Mechaników od 7, lamport = 131
+ [10]: Otrzymałem Potrzebe doku od 4, lamport = 88
 
- [2]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 131
- [5]: Otrzymałem Zwalniam dok od 4, lamport = 117
+ [10]: Wysyłam Potwierdzenie o Doku do 4, lamport = 88
+ [10]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 89
 
- [5]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [10]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 100
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [5]: Otrzymałem Potrzebe Mechaników od 7, lamport = 131
+ [10]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 101
 
- [5]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 131
- [3]: Otrzymałem Zwalniam dok od 4, lamport = 133
+ [10]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 102
 
- [3]: Otrzymałem Potrzebe Mechaników od 0, lamport = 134
+ [10]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 103
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 134
- [3]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 135
+ [10]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 106
 
- [3]: Otrzymałem Potrzebe Mechaników od 7, lamport = 136
+ [3]: Wysyłam Potwierdzenie o Doku do 10, lamport = 83
+ [3]: Otrzymałem Potrzebe doku od 4, lamport = 84
 
- [3]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 136
- [6]: Otrzymałem Zwalniam dok od 4, lamport = 114
+ [3]: Wysyłam Potwierdzenie o Doku do 4, lamport = 84
+ [11]: Otrzymałem Potrzebe doku od 4, lamport = 81
 
- [6]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [11]: Wysyłam Potwierdzenie o Doku do 4, lamport = 81
+ [11]: Otrzymałem Potrzebe doku od 10, lamport = 82
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [6]: Otrzymałem Potrzebe Mechaników od 7, lamport = 131
+ [11]: Wysyłam Potwierdzenie o Doku do 10, lamport = 82
+ [4]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 83
 
- [6]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 131
- [7]: Otrzymałem Zwalniam dok od 4, lamport = 119
+ [4]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 88
 
- [7]: Otrzymałem Potrzebe Mechaników od 0, lamport = 129
+ [4]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 101
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 0, lamport = 129
- [7]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 129
- [7]: Wysyłam Potrzebe Mechaników do 0, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 1, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 2, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 3, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 4, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 5, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 6, lamport = 130
- [7]: Wysyłam Potrzebe Mechaników do 7, lamport = 130
- [7]: Żadanie o 17 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 130
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 132
+ [4]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 102
 
- [7]: Otrzymałem Potrzebe Mechaników od 7, lamport = 133
+ [4]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 103
 
- [7]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 133
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 134
+ [4]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 104
 
- [0]: Wysyłam Potwierdzenie o Mechanikach do 7, lamport = 140
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 135
+ [4]: Otrzymałem Potrzebe doku od 10, lamport = 105
 
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 141
+ [4]: Wysyłam Potwierdzenie o Doku do 10, lamport = 105
+ [4]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 106
 
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 142
+ [4]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 107
 
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 143
+ [4]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 108
 
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 144
+ [4]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 109
 
- [7]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 145
+ [4]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 110
 
- [0]: Otrzymałem Potrzebe doku od 6, lamport = 141
+ [2]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 86
 
- [0]: Wysyłam Potwierdzenie o Doku do 6, lamport = 141
- [1]: Otrzymałem Potrzebe doku od 6, lamport = 133
+ [1]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 84
 
- [1]: Wysyłam Potwierdzenie o Doku do 6, lamport = 133
- [4]: Otrzymałem Potrzebe doku od 6, lamport = 133
+ [4]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 111
 
- [4]: Wysyłam Potwierdzenie o Doku do 6, lamport = 133
- [2]: Otrzymałem Potrzebe doku od 6, lamport = 133
+ [0]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 82
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 8, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 9, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 10, lamport = 83
+ [0]: Wysyłam Zwolnienie trzymanych mechaników do 11, lamport = 83
+ [0]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 83
+ [0]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 84
 
- [2]: Wysyłam Potwierdzenie o Doku do 6, lamport = 133
- [7]: Otrzymałem Potrzebe doku od 6, lamport = 146
+ [0]: Wysyłam Zwalniam dok do 0, lamport = 85
+ [6]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 101
 
- [7]: Wysyłam Potwierdzenie o Doku do 6, lamport = 146
- [6]: Zostałem postrzelony, Chcę naprawę, lamport = 131
- [6]: Wysyłam Potrzebe doku do 0, lamport = 132
- [6]: Wysyłam Potrzebe doku do 1, lamport = 132
- [6]: Wysyłam Potrzebe doku do 2, lamport = 132
- [6]: Wysyłam Potrzebe doku do 3, lamport = 132
- [6]: Wysyłam Potrzebe doku do 4, lamport = 132
- [6]: Wysyłam Potrzebe doku do 5, lamport = 132
- [6]: Wysyłam Potrzebe doku do 6, lamport = 132
- [6]: Wysyłam Potrzebe doku do 7, lamport = 132
- [6]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 132
- [6]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 142
+ [6]: Otrzymałem Zwalniam dok od 0, lamport = 102
 
- [6]: Otrzymałem Potrzebe doku od 6, lamport = 143
+ [10]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 107
 
- [6]: Wysyłam Potwierdzenie o Doku do 6, lamport = 143
- [6]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 144
+ [10]: Otrzymałem Zwalniam dok od 0, lamport = 108
 
- [6]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 145
+ [1]: Otrzymałem Zwalniam dok od 0, lamport = 86
 
- [6]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 147
+ [2]: Otrzymałem Zwalniam dok od 0, lamport = 87
 
- [6]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 148
+ [0]: Wysyłam Zwalniam dok do 1, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 2, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 3, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 4, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 5, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 6, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 7, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 8, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 9, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 10, lamport = 85
+ [0]: Wysyłam Zwalniam dok do 11, lamport = 85
+ [0]: Otrzymałem Zwalniam dok od 0, lamport = 86
 
- [6]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 149
+ [0]: Otrzymałem Potrzebe Mechaników od 11, lamport = 88
 
- [6]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 150
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 88
+ [3]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 85
 
- [6]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 151
+ [3]: Otrzymałem Zwalniam dok od 0, lamport = 86
 
- [3]: Otrzymałem Potrzebe doku od 6, lamport = 137
+ [3]: Otrzymałem Potrzebe Mechaników od 11, lamport = 88
 
- [3]: Wysyłam Potwierdzenie o Doku do 6, lamport = 137
- [5]: Otrzymałem Potrzebe doku od 6, lamport = 133
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 88
+ [11]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 84
 
- [5]: Wysyłam Potwierdzenie o Doku do 6, lamport = 133
- [2]: Otrzymałem Potrzebe doku od 1, lamport = 135
+ [11]: Otrzymałem Zwalniam dok od 0, lamport = 86
 
- [2]: Wysyłam Potwierdzenie o Doku do 1, lamport = 135
- [0]: Otrzymałem Potrzebe doku od 1, lamport = 142
+ [11]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 86
+ [11]: Wysyłam Potrzebe Mechaników do 0, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 1, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 2, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 3, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 4, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 5, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 6, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 7, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 8, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 9, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 10, lamport = 87
+ [11]: Wysyłam Potrzebe Mechaników do 11, lamport = 87
+ [11]: Żadanie o 33 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 87
+ [11]: Otrzymałem Potrzebe Mechaników od 11, lamport = 88
 
- [0]: Wysyłam Potwierdzenie o Doku do 1, lamport = 142
- [1]: Zostałem postrzelony, Chcę naprawę, lamport = 133
- [1]: Wysyłam Potrzebe doku do 0, lamport = 134
- [1]: Wysyłam Potrzebe doku do 1, lamport = 134
- [1]: Wysyłam Potrzebe doku do 2, lamport = 134
- [1]: Wysyłam Potrzebe doku do 3, lamport = 134
- [1]: Wysyłam Potrzebe doku do 4, lamport = 134
- [1]: Wysyłam Potrzebe doku do 5, lamport = 134
- [1]: Wysyłam Potrzebe doku do 6, lamport = 134
- [1]: Wysyłam Potrzebe doku do 7, lamport = 134
- [1]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 134
- [1]: Otrzymałem Potrzebe doku od 1, lamport = 135
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 88
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 89
 
- [1]: Wysyłam Potwierdzenie o Doku do 1, lamport = 135
- [1]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 136
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 90
 
- [4]: Otrzymałem Potrzebe doku od 1, lamport = 135
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 91
 
- [4]: Wysyłam Potwierdzenie o Doku do 1, lamport = 135
- [5]: Otrzymałem Potrzebe doku od 1, lamport = 135
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 92
 
- [5]: Wysyłam Potwierdzenie o Doku do 1, lamport = 135
- [7]: Otrzymałem Potrzebe doku od 1, lamport = 147
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 93
 
- [7]: Wysyłam Potwierdzenie o Doku do 1, lamport = 147
- [3]: Otrzymałem Potrzebe doku od 1, lamport = 138
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 114
 
- [3]: Wysyłam Potwierdzenie o Doku do 1, lamport = 138
- [1]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 143
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 115
 
- [1]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 144
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 116
 
- [1]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 145
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 117
 
- [1]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 146
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 118
 
- [1]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 147
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 119
 
- [1]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 153
+ [11]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 120
 
- [1]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 154
+ [5]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 88
 
- [6]: Otrzymałem Potrzebe doku od 1, lamport = 152
+ [5]: Otrzymałem Zwalniam dok od 0, lamport = 89
 
- [6]: Wysyłam Potwierdzenie o Doku do 1, lamport = 152
- [6]: Otrzymałem Potrzebe doku od 4, lamport = 153
+ [5]: Otrzymałem Potrzebe Mechaników od 11, lamport = 90
 
- [6]: Wysyłam Potwierdzenie o Doku do 4, lamport = 153
- [0]: Otrzymałem Potrzebe doku od 4, lamport = 143
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 90
+ [8]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 94
 
- [0]: Wysyłam Potwierdzenie o Doku do 4, lamport = 143
- [3]: Otrzymałem Potrzebe doku od 4, lamport = 139
+ [8]: Otrzymałem Zwalniam dok od 0, lamport = 95
 
- [3]: Wysyłam Potwierdzenie o Doku do 4, lamport = 139
- [1]: Otrzymałem Potrzebe doku od 4, lamport = 155
+ [8]: Otrzymałem Potrzebe Mechaników od 11, lamport = 96
 
- [1]: Wysyłam Potwierdzenie o Doku do 4, lamport = 155
- [5]: Otrzymałem Potrzebe doku od 4, lamport = 137
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 96
+ [7]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 93
 
- [5]: Wysyłam Potwierdzenie o Doku do 4, lamport = 137
- [7]: Otrzymałem Potrzebe doku od 4, lamport = 148
+ [7]: Otrzymałem Zwalniam dok od 0, lamport = 94
 
- [7]: Wysyłam Potwierdzenie o Doku do 4, lamport = 148
- [4]: Zostałem postrzelony, Chcę naprawę, lamport = 135
- [4]: Wysyłam Potrzebe doku do 0, lamport = 136
- [4]: Wysyłam Potrzebe doku do 1, lamport = 136
- [4]: Wysyłam Potrzebe doku do 2, lamport = 136
- [4]: Wysyłam Potrzebe doku do 3, lamport = 136
- [4]: Wysyłam Potrzebe doku do 4, lamport = 136
- [4]: Wysyłam Potrzebe doku do 5, lamport = 136
- [4]: Wysyłam Potrzebe doku do 6, lamport = 136
- [4]: Wysyłam Potrzebe doku do 7, lamport = 136
- [4]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 136
- [4]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 144
+ [7]: Otrzymałem Potrzebe Mechaników od 11, lamport = 95
 
- [4]: Otrzymałem Potrzebe doku od 4, lamport = 145
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 95
+ [9]: Otrzymałem Zwolnienie trzymanych mechaników od 0, lamport = 94
 
- [4]: Wysyłam Potwierdzenie o Doku do 4, lamport = 145
- [4]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 146
+ [9]: Otrzymałem Potrzebe Mechaników od 11, lamport = 95
 
- [2]: Otrzymałem Potrzebe doku od 4, lamport = 137
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 95
+ [9]: Otrzymałem Zwalniam dok od 0, lamport = 96
 
- [2]: Wysyłam Potwierdzenie o Doku do 4, lamport = 137
- [4]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 156
+ [2]: Otrzymałem Potrzebe Mechaników od 11, lamport = 88
 
- [4]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 157
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 88
+ [6]: Otrzymałem Potrzebe Mechaników od 11, lamport = 103
 
- [4]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 158
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 103
+ [10]: Otrzymałem Potrzebe Mechaników od 11, lamport = 109
 
- [4]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 159
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 109
+ [1]: Otrzymałem Potrzebe Mechaników od 11, lamport = 88
 
- [4]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 160
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 88
+ [4]: Otrzymałem Zwalniam dok od 0, lamport = 112
 
- [4]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 161
+ [4]: Otrzymałem Potrzebe Mechaników od 11, lamport = 113
+
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 11, lamport = 113
+ [1]: Zostałem postrzelony, Chcę naprawę, lamport = 88
+ [1]: Wysyłam Potrzebe doku do 0, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 1, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 2, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 3, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 4, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 5, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 6, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 7, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 8, lamport = 89
+ [4]: Otrzymałem Potrzebe doku od 1, lamport = 114
+
+ [4]: Wysyłam Potwierdzenie o Doku do 1, lamport = 114
+ [0]: Otrzymałem Potrzebe doku od 1, lamport = 90
+
+ [0]: Wysyłam Potwierdzenie o Doku do 1, lamport = 90
+ [7]: Otrzymałem Potrzebe doku od 1, lamport = 96
+
+ [7]: Wysyłam Potwierdzenie o Doku do 1, lamport = 96
+ [2]: Otrzymałem Potrzebe doku od 1, lamport = 90
+
+ [2]: Wysyłam Potwierdzenie o Doku do 1, lamport = 90
+ [6]: Otrzymałem Potrzebe doku od 1, lamport = 104
+
+ [6]: Wysyłam Potwierdzenie o Doku do 1, lamport = 104
+ [3]: Otrzymałem Potrzebe doku od 1, lamport = 90
+
+ [3]: Wysyłam Potwierdzenie o Doku do 1, lamport = 90
+ [5]: Otrzymałem Potrzebe doku od 1, lamport = 91
+
+ [5]: Wysyłam Potwierdzenie o Doku do 1, lamport = 91
+ [8]: Otrzymałem Potrzebe doku od 1, lamport = 97
+
+ [8]: Wysyłam Potwierdzenie o Doku do 1, lamport = 97
+ [11]: Otrzymałem Potrzebe doku od 1, lamport = 121
+
+ [11]: Wysyłam Potwierdzenie o Doku do 1, lamport = 121
+ [1]: Wysyłam Potrzebe doku do 9, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 10, lamport = 89
+ [1]: Wysyłam Potrzebe doku do 11, lamport = 89
+ [1]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 89
+ [1]: Otrzymałem Potrzebe doku od 1, lamport = 90
+
+ [1]: Wysyłam Potwierdzenie o Doku do 1, lamport = 90
+ [1]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 91
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 92
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 93
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 94
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 115
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 116
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 117
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 118
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 119
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 120
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 121
+
+ [1]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 122
+
+ [9]: Otrzymałem Potrzebe doku od 1, lamport = 97
+
+ [9]: Wysyłam Potwierdzenie o Doku do 1, lamport = 97
+ [10]: Otrzymałem Potrzebe doku od 1, lamport = 110
+
+ [10]: Wysyłam Potwierdzenie o Doku do 1, lamport = 110
+ [4]: Otrzymałem Potrzebe doku od 0, lamport = 115
+
+ [4]: Wysyłam Potwierdzenie o Doku do 0, lamport = 115
+ [6]: Otrzymałem Potrzebe doku od 0, lamport = 105
+
+ [6]: Wysyłam Potwierdzenie o Doku do 0, lamport = 105
+ [8]: Otrzymałem Potrzebe doku od 0, lamport = 98
+
+ [8]: Wysyłam Potwierdzenie o Doku do 0, lamport = 98
+ [3]: Otrzymałem Potrzebe doku od 0, lamport = 92
+
+ [3]: Wysyłam Potwierdzenie o Doku do 0, lamport = 92
+ [5]: Otrzymałem Potrzebe doku od 0, lamport = 92
+
+ [5]: Wysyłam Potwierdzenie o Doku do 0, lamport = 92
+ [11]: Otrzymałem Potrzebe doku od 0, lamport = 122
+
+ [11]: Wysyłam Potwierdzenie o Doku do 0, lamport = 122
+ [0]: Zostałem postrzelony, Chcę naprawę, lamport = 90
+ [0]: Wysyłam Potrzebe doku do 0, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 1, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 2, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 3, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 4, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 5, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 6, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 7, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 8, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 9, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 10, lamport = 91
+ [0]: Wysyłam Potrzebe doku do 11, lamport = 91
+ [0]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 91
+ [0]: Otrzymałem Potrzebe doku od 0, lamport = 92
+
+ [0]: Wysyłam Potwierdzenie o Doku do 0, lamport = 92
+ [0]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 93
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 124
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 125
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 126
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 127
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 128
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 129
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 130
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 131
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 132
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 133
+
+ [0]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 134
+
+ [1]: Otrzymałem Potrzebe doku od 0, lamport = 123
+
+ [1]: Wysyłam Potwierdzenie o Doku do 0, lamport = 123
+ [7]: Otrzymałem Potrzebe doku od 0, lamport = 97
+
+ [7]: Wysyłam Potwierdzenie o Doku do 0, lamport = 97
+ [2]: Otrzymałem Potrzebe doku od 0, lamport = 92
+
+ [2]: Wysyłam Potwierdzenie o Doku do 0, lamport = 92
+ [9]: Otrzymałem Potrzebe doku od 0, lamport = 98
+
+ [9]: Wysyłam Potwierdzenie o Doku do 0, lamport = 98
+ [10]: Otrzymałem Potrzebe doku od 0, lamport = 111
+
+ [10]: Wysyłam Potwierdzenie o Doku do 0, lamport = 111
+ [5]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 100
+
+ [0]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 135
+
+ [1]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 124
+
+ [7]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 100
+
+ [7]: Dostałem 32 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 100
+ [2]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 100
+
+ [10]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 112
+
+ [4]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 116
+
+ [6]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 106
+
+ [8]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 98
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 8, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 9, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 10, lamport = 99
+ [8]: Wysyłam Zwolnienie trzymanych mechaników do 11, lamport = 99
+ [8]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 99
+ [8]: Wysyłam Zwalniam dok do 0, lamport = 100
+ [3]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 100
+
+ [8]: Wysyłam Zwalniam dok do 1, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 2, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 3, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 4, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 5, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 6, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 7, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 8, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 9, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 10, lamport = 100
+ [8]: Wysyłam Zwalniam dok do 11, lamport = 100
+ [8]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 101
+
+ [8]: Otrzymałem Zwalniam dok od 8, lamport = 102
+
+ [8]: Otrzymałem Potrzebe Mechaników od 3, lamport = 103
+
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 103
+ [2]: Otrzymałem Zwalniam dok od 8, lamport = 101
+
+ [2]: Otrzymałem Potrzebe Mechaników od 3, lamport = 103
+
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 103
+ [11]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 123
+
+ [11]: Otrzymałem Potrzebe Mechaników od 3, lamport = 124
+
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 124
+ [11]: Otrzymałem Zwalniam dok od 8, lamport = 125
+
+ [5]: Otrzymałem Potrzebe Mechaników od 3, lamport = 103
+
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 103
+ [5]: Otrzymałem Zwalniam dok od 8, lamport = 104
+
+ [0]: Otrzymałem Zwalniam dok od 8, lamport = 136
+
+ [0]: Otrzymałem Potrzebe Mechaników od 3, lamport = 137
+
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 137
+ [1]: Otrzymałem Zwalniam dok od 8, lamport = 125
+
+ [1]: Otrzymałem Potrzebe Mechaników od 3, lamport = 126
+
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 126
+ [7]: Otrzymałem Potrzebe Mechaników od 3, lamport = 103
+
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 103
+ [7]: Otrzymałem Zwalniam dok od 8, lamport = 104
+
+ [3]: Otrzymałem Zwalniam dok od 8, lamport = 101
+
+ [3]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 101
+ [3]: Wysyłam Potrzebe Mechaników do 0, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 1, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 2, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 3, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 4, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 5, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 6, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 7, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 8, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 9, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 10, lamport = 102
+ [3]: Wysyłam Potrzebe Mechaników do 11, lamport = 102
+ [3]: Żadanie o 10 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 102
+ [3]: Otrzymałem Potrzebe Mechaników od 3, lamport = 103
+
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 103
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 104
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 138
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 139
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 140
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 141
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 142
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 143
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 144
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 145
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 146
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 147
+
+ [3]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 148
+
+ [9]: Otrzymałem Zwolnienie trzymanych mechaników od 8, lamport = 100
+
+ [9]: Otrzymałem Potrzebe Mechaników od 3, lamport = 103
+
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 103
+ [9]: Otrzymałem Zwalniam dok od 8, lamport = 104
+
+ [6]: Otrzymałem Potrzebe Mechaników od 3, lamport = 107
+
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 107
+ [6]: Otrzymałem Zwalniam dok od 8, lamport = 108
+
+ [10]: Otrzymałem Potrzebe Mechaników od 3, lamport = 113
+
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 113
+ [10]: Otrzymałem Zwalniam dok od 8, lamport = 114
+
+ [4]: Otrzymałem Zwalniam dok od 8, lamport = 117
+
+ [4]: Otrzymałem Potrzebe Mechaników od 3, lamport = 118
+
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 3, lamport = 118
+ [8]: Zostałem postrzelony, Chcę naprawę, lamport = 103
+ [8]: Wysyłam Potrzebe doku do 0, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 1, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 2, lamport = 104
+ [0]: Otrzymałem Potrzebe doku od 8, lamport = 138
+
+ [0]: Wysyłam Potwierdzenie o Doku do 8, lamport = 138
+ [1]: Otrzymałem Potrzebe doku od 8, lamport = 127
+
+ [1]: Wysyłam Potwierdzenie o Doku do 8, lamport = 127
+ [8]: Wysyłam Potrzebe doku do 3, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 4, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 5, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 6, lamport = 104
+ [3]: Otrzymałem Potrzebe doku od 8, lamport = 149
+
+ [3]: Wysyłam Potwierdzenie o Doku do 8, lamport = 149
+ [2]: Otrzymałem Potrzebe doku od 8, lamport = 105
+
+ [2]: Wysyłam Potwierdzenie o Doku do 8, lamport = 105
+ [8]: Wysyłam Potrzebe doku do 7, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 8, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 9, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 10, lamport = 104
+ [8]: Wysyłam Potrzebe doku do 11, lamport = 104
+ [8]: Żądanie o dok poszło do wszystkich, Chcę dostęp do sekcji krytycznej 1, lamport = 104
+ [8]: Otrzymałem Potwierdzenie o Doku od 0, lamport = 139
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 1, lamport = 140
+
+ [8]: Otrzymałem Potrzebe doku od 8, lamport = 141
+
+ [8]: Wysyłam Potwierdzenie o Doku do 8, lamport = 141
+ [8]: Otrzymałem Potwierdzenie o Doku od 8, lamport = 142
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 2, lamport = 143
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 9, lamport = 144
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 10, lamport = 145
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 11, lamport = 146
+
+ [6]: Otrzymałem Potrzebe doku od 8, lamport = 109
+
+ [6]: Wysyłam Potwierdzenie o Doku do 8, lamport = 109
+ [10]: Otrzymałem Potrzebe doku od 8, lamport = 115
+
+ [10]: Wysyłam Potwierdzenie o Doku do 8, lamport = 115
+ [9]: Otrzymałem Potrzebe doku od 8, lamport = 105
+
+ [9]: Wysyłam Potwierdzenie o Doku do 8, lamport = 105
+ [7]: Otrzymałem Potrzebe doku od 8, lamport = 105
+
+ [7]: Wysyłam Potwierdzenie o Doku do 8, lamport = 105
+ [4]: Otrzymałem Potrzebe doku od 8, lamport = 119
+
+ [4]: Wysyłam Potwierdzenie o Doku do 8, lamport = 119
+ [11]: Otrzymałem Potrzebe doku od 8, lamport = 126
+
+ [11]: Wysyłam Potwierdzenie o Doku do 8, lamport = 126
+ [5]: Otrzymałem Potrzebe doku od 8, lamport = 105
+
+ [5]: Wysyłam Potwierdzenie o Doku do 8, lamport = 105
+ [8]: Otrzymałem Potwierdzenie o Doku od 3, lamport = 150
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 4, lamport = 151
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 5, lamport = 152
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 6, lamport = 153
+
+ [8]: Otrzymałem Potwierdzenie o Doku od 7, lamport = 154
+
+ [4]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 120
+
+ [4]: Otrzymałem Zwalniam dok od 7, lamport = 121
+
+ [11]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 127
+
+ [11]: Otrzymałem Zwalniam dok od 7, lamport = 128
+
+ [1]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 128
+
+ [1]: Otrzymałem Zwalniam dok od 7, lamport = 129
+
+ [1]: Otrzymałem Potrzebe Mechaników od 2, lamport = 130
+
+ [1]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 130
+ [0]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 139
+
+ [0]: Otrzymałem Zwalniam dok od 7, lamport = 140
+
+ [0]: Otrzymałem Potrzebe Mechaników od 2, lamport = 141
+
+ [0]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 141
+ [8]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 155
+
+ [8]: Otrzymałem Zwalniam dok od 7, lamport = 156
+
+ [7]: Naprawili mnie, zwalniam mechaników, Wychodzę z sekcji krytycznej 2, lamport = 105
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 0, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 1, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 2, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 3, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 4, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 5, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 6, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 7, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 8, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 9, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 10, lamport = 106
+ [7]: Wysyłam Zwolnienie trzymanych mechaników do 11, lamport = 106
+ [7]: Koniec naprawy, zwalniam dok, wracam do walki,Wyszedłem z sekcji krytycznej 2 oraz jestem w trakcie wychodzenia z sekcji krytycznej 1, lamport = 106
+ [7]: Wysyłam Zwalniam dok do 0, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 1, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 2, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 3, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 4, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 5, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 6, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 7, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 8, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 9, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 10, lamport = 107
+ [7]: Wysyłam Zwalniam dok do 11, lamport = 107
+ [7]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 108
+
+ [7]: Otrzymałem Zwalniam dok od 7, lamport = 109
+
+ [3]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 150
+
+ [3]: Otrzymałem Zwalniam dok od 7, lamport = 151
+
+ [7]: Otrzymałem Potrzebe Mechaników od 2, lamport = 110
+
+ [7]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 110
+ [2]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 107
+
+ [2]: Otrzymałem Zwalniam dok od 7, lamport = 108
+
+ [2]: Wylądowałem w doku, Jestem w sekcji krytycznej 1, lamport = 108
+ [2]: Wysyłam Potrzebe Mechaników do 0, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 1, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 2, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 3, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 4, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 5, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 6, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 7, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 8, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 9, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 10, lamport = 109
+ [2]: Wysyłam Potrzebe Mechaników do 11, lamport = 109
+ [2]: Żadanie o 32 Mechaników poszło do wszystkich, Chcę dostęp do sekcji krytycznej 2, lamport = 109
+ [2]: Otrzymałem Potrzebe Mechaników od 2, lamport = 110
+
+ [2]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 110
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 2, lamport = 111
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 0, lamport = 142
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 3, lamport = 153
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 4, lamport = 154
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 5, lamport = 155
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 6, lamport = 156
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 7, lamport = 157
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 8, lamport = 158
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 9, lamport = 159
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 10, lamport = 160
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 11, lamport = 161
+
+ [2]: Otrzymałem Potwierdzenie o Mechanikach od 1, lamport = 162
+
+ [5]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 107
+
+ [5]: Otrzymałem Zwalniam dok od 7, lamport = 108
+
+ [5]: Otrzymałem Potrzebe Mechaników od 2, lamport = 110
+
+ [5]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 110
+ [6]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 110
+
+ [6]: Otrzymałem Zwalniam dok od 7, lamport = 111
+
+ [6]: Otrzymałem Potrzebe Mechaników od 2, lamport = 112
+
+ [6]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 112
+ [10]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 116
+
+ [10]: Otrzymałem Zwalniam dok od 7, lamport = 117
+
+ [10]: Otrzymałem Potrzebe Mechaników od 2, lamport = 118
+
+ [10]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 118
+ [9]: Otrzymałem Zwolnienie trzymanych mechaników od 7, lamport = 107
+
+ [9]: Dostałem 22 Mechaników, start naprawy, Jestem w sekcji krytycznej 2, lamport = 107
+ [9]: Otrzymałem Zwalniam dok od 7, lamport = 108
+
+ [9]: Otrzymałem Potrzebe Mechaników od 2, lamport = 110
+
+ [9]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 110
+ [8]: Otrzymałem Potrzebe Mechaników od 2, lamport = 157
+
+ [8]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 157
+ [11]: Otrzymałem Potrzebe Mechaników od 2, lamport = 129
+
+ [11]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 129
+ [3]: Otrzymałem Potrzebe Mechaników od 2, lamport = 152
+
+ [3]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 152
+ [4]: Otrzymałem Potrzebe Mechaników od 2, lamport = 122
+
+ [4]: Wysyłam Potwierdzenie o Mechanikach do 2, lamport = 122
